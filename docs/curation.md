@@ -7,7 +7,7 @@ runs to gather and keep this data current.
 
 | Dataset | Primary sources | Cadence |
 |---|---|---|
-| Model specs + token pricing | LiteLLM `model_prices_and_context_window.json`, OpenRouter `/api/v1/models` | Weekly |
+| Model specs + token pricing | LiteLLM `model_prices_and_context_window.json`, OpenRouter `/api/v1/models`, TrustedRouter `/v1/models` | Weekly |
 | Cloud GPU / capacity providers | Vendor pricing pages (Lambda, CoreWeave, Nebius, Crusoe, RunPod, Modal, hyperscalers) | On change / monthly sweep |
 | Announced-but-unpriced models | Vendor announcements | Event-driven |
 

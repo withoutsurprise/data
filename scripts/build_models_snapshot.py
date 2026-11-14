@@ -4,6 +4,7 @@
 Sources:
   - LiteLLM model_prices_and_context_window.json (GitHub raw)
   - OpenRouter public /api/v1/models
+  - TrustedRouter public /v1/models (OpenRouter-compatible shape)
 
 Output (committed):
   models/models.json          one normalized record per model
@@ -17,6 +18,7 @@ import json, datetime, urllib.request, pathlib
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 LITELLM_URL = "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json"
 OPENROUTER_URL = "https://openrouter.ai/api/v1/models"
+TRUSTEDROUTER_URL = "https://trustedrouter.com/v1/models"
 
 
 def fetch(url):
@@ -80,10 +82,29 @@ def main():
                 "source": "openrouter", "source_url": OPENROUTER_URL, "collected": today,
             })
 
-    models_out = {"updated": today, "sources": [LITELLM_URL, OPENROUTER_URL],
+    for m in fetch(TRUSTEDROUTER_URL)["data"]:
+        mid = f"trustedrouter/{m['id']}"
+        p = m.get("pricing", {})
+        pr, co = per_mtok(p.get("prompt")), per_mtok(p.get("completion"))
+        models[mid] = {
+            "id": mid,
+            "vendor": m["id"].split("/")[0],
+            "context_window": m.get("context_length"),
+            "source": "trustedrouter",
+            "source_url": TRUSTEDROUTER_URL,
+            "collected": today,
+        }
+        if pr is not None or co is not None:
+            pricing.append({
+                "model_id": mid, "unit": "usd_per_mtok", "prompt": pr,
+                "completion": co, "provider": "trustedrouter",
+                "source": "trustedrouter", "source_url": TRUSTEDROUTER_URL, "collected": today,
+            })
+
+    models_out = {"updated": today, "sources": [LITELLM_URL, OPENROUTER_URL, TRUSTEDROUTER_URL],
                   "count": len(models), "models": list(models.values())}
     pricing_out = {"updated": today, "unit": "usd_per_mtok",
-                   "sources": [LITELLM_URL, OPENROUTER_URL],
+                   "sources": [LITELLM_URL, OPENROUTER_URL, TRUSTEDROUTER_URL],
                    "count": len(pricing), "prices": pricing}
 
     for path, blob in [(ROOT / "models/models.json", models_out),

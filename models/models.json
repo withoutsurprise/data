@@ -2,9 +2,10 @@
   "updated": "2026-11-13",
   "sources": [
     "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
-    "https://openrouter.ai/api/v1/models"
+    "https://openrouter.ai/api/v1/models",
+    "https://trustedrouter.com/v1/models"
   ],
-  "count": 6349,
+  "count": 7027,
   "models": [
     {
       "id": "azure/gpt-realtime-2.1-2026-07-07",
@@ -62552,6 +62553,5430 @@
       "context_window": 128000,
       "source": "openrouter",
       "source_url": "https://openrouter.ai/api/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/auto",
+      "vendor": "trustedrouter",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/free",
+      "vendor": "trustedrouter",
+      "context_window": 128000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/cheap",
+      "vendor": "trustedrouter",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/fast",
+      "vendor": "trustedrouter",
+      "context_window": 131072,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/green",
+      "vendor": "trustedrouter",
+      "context_window": 120000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/eu",
+      "vendor": "trustedrouter",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/zdr",
+      "vendor": "trustedrouter",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/e2e",
+      "vendor": "trustedrouter",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/trusted",
+      "vendor": "trustedrouter",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/confidential",
+      "vendor": "trustedrouter",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/socrates-1.0",
+      "vendor": "trustedrouter",
+      "context_window": 200000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/socrates-1.1",
+      "vendor": "trustedrouter",
+      "context_window": 200000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/socrates-2.0",
+      "vendor": "trustedrouter",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/socrates",
+      "vendor": "trustedrouter",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/advisor",
+      "vendor": "trustedrouter",
+      "context_window": 200000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/subagent",
+      "vendor": "trustedrouter",
+      "context_window": 200000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/aristotle-1.0",
+      "vendor": "trustedrouter",
+      "context_window": 200000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/aristotle-1.1",
+      "vendor": "trustedrouter",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/aristotle-2.0",
+      "vendor": "trustedrouter",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/aristotle",
+      "vendor": "trustedrouter",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/plato-1.0",
+      "vendor": "trustedrouter",
+      "context_window": 200000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/plato-3.0",
+      "vendor": "trustedrouter",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/plato",
+      "vendor": "trustedrouter",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/plato-pro-1.0",
+      "vendor": "trustedrouter",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/plato-pro-2.0",
+      "vendor": "trustedrouter",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/plato-pro",
+      "vendor": "trustedrouter",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/socrates-pro-1.0",
+      "vendor": "trustedrouter",
+      "context_window": 200000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/socrates-pro",
+      "vendor": "trustedrouter",
+      "context_window": 200000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/socrates-pro-plus-1.0",
+      "vendor": "trustedrouter",
+      "context_window": 200000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/socrates-pro-plus",
+      "vendor": "trustedrouter",
+      "context_window": 200000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/openpatcher-s1",
+      "vendor": "trustedrouter",
+      "context_window": 200000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/openpatcher-s2",
+      "vendor": "trustedrouter",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/openpatcher-s3",
+      "vendor": "trustedrouter",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/openpatcher-a1",
+      "vendor": "trustedrouter",
+      "context_window": 200000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/openpatcher-fast1",
+      "vendor": "trustedrouter",
+      "context_window": 200000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/openpatcher-g1",
+      "vendor": "trustedrouter",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/openpatcher-g2",
+      "vendor": "trustedrouter",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/openpatcher-g3",
+      "vendor": "trustedrouter",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/athena-1.0",
+      "vendor": "trustedrouter",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/athena-2.0",
+      "vendor": "trustedrouter",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/athena",
+      "vendor": "trustedrouter",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/liberty-1.0",
+      "vendor": "trustedrouter",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/liberty-1.0-1m",
+      "vendor": "trustedrouter",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/liberty-2.0",
+      "vendor": "trustedrouter",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/parasail/liberty-2.0",
+      "vendor": "parasail",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/liberty-4.0",
+      "vendor": "trustedrouter",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/liberty-4.1",
+      "vendor": "trustedrouter",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/liberty-3.0",
+      "vendor": "trustedrouter",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/synth",
+      "vendor": "trustedrouter",
+      "context_window": 200000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/iris",
+      "vendor": "trustedrouter",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/prometheus",
+      "vendor": "trustedrouter",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/zeus",
+      "vendor": "trustedrouter",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/iris-1.0",
+      "vendor": "trustedrouter",
+      "context_window": 200000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/iris-2.0",
+      "vendor": "trustedrouter",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/iris-3.0",
+      "vendor": "trustedrouter",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/prometheus-1.0",
+      "vendor": "trustedrouter",
+      "context_window": 200000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/prometheus-1.0-1m",
+      "vendor": "trustedrouter",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/prometheus-2.0",
+      "vendor": "trustedrouter",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/prometheus-3.0",
+      "vendor": "trustedrouter",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/zeus-1.0",
+      "vendor": "trustedrouter",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/zeus-1.0-mini",
+      "vendor": "trustedrouter",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/zeus-2.0",
+      "vendor": "trustedrouter",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/prometheus-4.0",
+      "vendor": "trustedrouter",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/zeus-3.0",
+      "vendor": "trustedrouter",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/plato-4.0",
+      "vendor": "trustedrouter",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/socrates-3.0",
+      "vendor": "trustedrouter",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/synth-code",
+      "vendor": "trustedrouter",
+      "context_window": 200000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/iris-code",
+      "vendor": "trustedrouter",
+      "context_window": 200000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/prometheus-code",
+      "vendor": "trustedrouter",
+      "context_window": 200000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/zeus-code",
+      "vendor": "trustedrouter",
+      "context_window": 200000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/iris-code-1.0",
+      "vendor": "trustedrouter",
+      "context_window": 200000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/prometheus-code-1.0",
+      "vendor": "trustedrouter",
+      "context_window": 200000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/zeus-code-1.0",
+      "vendor": "trustedrouter",
+      "context_window": 200000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/fusion",
+      "vendor": "trustedrouter",
+      "context_window": 200000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/fusion-code",
+      "vendor": "trustedrouter",
+      "context_window": 200000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/selector",
+      "vendor": "trustedrouter",
+      "context_window": 200000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/mapreduce",
+      "vendor": "trustedrouter",
+      "context_window": 200000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/anthropic/claude-fable-5",
+      "vendor": "anthropic",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/anthropic/claude-fable-5.1",
+      "vendor": "anthropic",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/anthropic/claude-fable-5.2",
+      "vendor": "anthropic",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/anthropic/claude-haiku-4.5",
+      "vendor": "anthropic",
+      "context_window": 200000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/anthropic/claude-haiku-5.5",
+      "vendor": "anthropic",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/anthropic/claude-opus-4.5",
+      "vendor": "anthropic",
+      "context_window": 200000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/anthropic/claude-opus-4.6",
+      "vendor": "anthropic",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/anthropic/claude-opus-4.7",
+      "vendor": "anthropic",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/anthropic/claude-opus-4.8",
+      "vendor": "anthropic",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/anthropic/claude-opus-5",
+      "vendor": "anthropic",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/anthropic/claude-opus-5.5",
+      "vendor": "anthropic",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/anthropic/claude-sonnet-4.5",
+      "vendor": "anthropic",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/anthropic/claude-sonnet-4.6",
+      "vendor": "anthropic",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/anthropic/claude-sonnet-5",
+      "vendor": "anthropic",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/anthropic/claude-sonnet-5.5",
+      "vendor": "anthropic",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/bytedance/ui-tars-1.5-7b",
+      "vendor": "bytedance",
+      "context_window": 128000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/deepseek/deepseek-r1-0528",
+      "vendor": "deepseek",
+      "context_window": 163840,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/deepseek/deepseek-v3.1-terminus",
+      "vendor": "deepseek",
+      "context_window": 163840,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/deepseek/deepseek-v3.2",
+      "vendor": "deepseek",
+      "context_window": 163840,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/deepseek/deepseek-v3.2-exp",
+      "vendor": "deepseek",
+      "context_window": 163840,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/deepseek/deepseek-v4-flash",
+      "vendor": "deepseek",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/deepseek/deepseek-v4-flash-0731",
+      "vendor": "deepseek",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/deepseek/deepseek-v4-flash-vision-exp",
+      "vendor": "deepseek",
+      "context_window": 1048575,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/deepseek/deepseek-v4-pro",
+      "vendor": "deepseek",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/deepseek/deepseek-v4.1-flash",
+      "vendor": "deepseek",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/deepseek/deepseek-v4.1-flash-1017",
+      "vendor": "deepseek",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/google/gemini-2.5-flash",
+      "vendor": "google",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/google/gemini-2.5-flash-lite",
+      "vendor": "google",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/google/gemini-2.5-pro",
+      "vendor": "google",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/google/gemini-3-flash-preview",
+      "vendor": "google",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/google/gemini-3.1-flash-lite",
+      "vendor": "google",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/google/gemini-3.1-flash-lite-preview",
+      "vendor": "google",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/google/gemini-3.1-pro-preview",
+      "vendor": "google",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/google/gemini-3.5-flash",
+      "vendor": "google",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/google/gemini-3.5-flash-lite",
+      "vendor": "google",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/google/gemini-3.6-flash",
+      "vendor": "google",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/google/gemini-3.7-flash",
+      "vendor": "google",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/google/gemini-3.8-flash",
+      "vendor": "google",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/google/gemini-4-argon",
+      "vendor": "google",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/google/gemini-4-carbon",
+      "vendor": "google",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/google/gemini-4-hydrogen",
+      "vendor": "google",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/google/gemini-omni-1.1-flash",
+      "vendor": "google",
+      "context_window": 131072,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/google/gemini-omni-1.2-flash",
+      "vendor": "google",
+      "context_window": 131072,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/google/gemma-3-12b-it",
+      "vendor": "google",
+      "context_window": 131072,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/google/gemma-3-27b-it",
+      "vendor": "google",
+      "context_window": 131072,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/google/gemma-3-4b-it",
+      "vendor": "google",
+      "context_window": 131072,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/google/gemma-4-26b-a4b-it",
+      "vendor": "google",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/google/gemma-4-31b-it",
+      "vendor": "google",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/gryphe/mythomax-l2-13b",
+      "vendor": "gryphe",
+      "context_window": 8192,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/ibm-granite/granite-4.2-8b",
+      "vendor": "ibm-granite",
+      "context_window": 131072,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/inclusionai/ling-3.0-flash",
+      "vendor": "inclusionai",
+      "context_window": 131072,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/inclusionai/ling-3.0-flash-fin",
+      "vendor": "inclusionai",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/inclusionai/ling-3.0-flash-sante",
+      "vendor": "inclusionai",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/inclusionai/ling-3.0-flash-vl",
+      "vendor": "inclusionai",
+      "context_window": 131072,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/inclusionai/ling-3.1-flash",
+      "vendor": "inclusionai",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/meta-llama/llama-3.1-8b-instruct",
+      "vendor": "meta-llama",
+      "context_window": 131072,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/meta-llama/llama-3.2-3b-instruct",
+      "vendor": "meta-llama",
+      "context_window": 131072,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/meta-llama/llama-3.3-70b-instruct",
+      "vendor": "meta-llama",
+      "context_window": 128000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/meta-llama/llama-4-maverick",
+      "vendor": "meta-llama",
+      "context_window": 524288,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/meta-llama/llama-guard-4-12b",
+      "vendor": "meta-llama",
+      "context_window": 163840,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/meta/muse-spark-1.1",
+      "vendor": "meta",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/meta/muse-spark-1.2",
+      "vendor": "meta",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/meta/muse-spark-1.3",
+      "vendor": "meta",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/microsoft/phi-4",
+      "vendor": "microsoft",
+      "context_window": 16384,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/minimax/minimax-m2.5",
+      "vendor": "minimax",
+      "context_window": 200000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/minimax/minimax-m2.7",
+      "vendor": "minimax",
+      "context_window": 196608,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/minimax/minimax-m3",
+      "vendor": "minimax",
+      "context_window": 524288,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/minimax/minimax-m3.1-flash",
+      "vendor": "minimax",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/mistralai/codestral-2508",
+      "vendor": "mistralai",
+      "context_window": 256000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/mistralai/ministral-14b-2512",
+      "vendor": "mistralai",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/mistralai/ministral-3b-2512",
+      "vendor": "mistralai",
+      "context_window": 131072,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/mistralai/ministral-8b-2512",
+      "vendor": "mistralai",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/mistralai/mistral-large-2512",
+      "vendor": "mistralai",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/mistralai/mistral-large-4",
+      "vendor": "mistralai",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/mistralai/mistral-small-24b-instruct-2501",
+      "vendor": "mistralai",
+      "context_window": 32768,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/mistralai/mistral-small-2603",
+      "vendor": "mistralai",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/moonshotai/kimi-k2-0905",
+      "vendor": "moonshotai",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/moonshotai/kimi-k2-thinking",
+      "vendor": "moonshotai",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/moonshotai/kimi-k2.5",
+      "vendor": "moonshotai",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/moonshotai/kimi-k2.6",
+      "vendor": "moonshotai",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/moonshotai/kimi-k2.7-code",
+      "vendor": "moonshotai",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/moonshotai/kimi-k3",
+      "vendor": "moonshotai",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/moonshotai/kimi-k3.1-pro",
+      "vendor": "moonshotai",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/nvidia/nemotron-3-nano-30b-a3b",
+      "vendor": "nvidia",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/nvidia/nemotron-3-super-120b-a12b",
+      "vendor": "nvidia",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/nvidia/nemotron-3-ultra-550b-a55b",
+      "vendor": "nvidia",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/nvidia/nemotron-3.5-lightning",
+      "vendor": "nvidia",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/nvidia/nemotron-3.5-super-vl",
+      "vendor": "nvidia",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/openai/gpt-4.1",
+      "vendor": "openai",
+      "context_window": 1047576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/openai/gpt-4.1-mini",
+      "vendor": "openai",
+      "context_window": 1047576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/openai/gpt-4o",
+      "vendor": "openai",
+      "context_window": 128000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/openai/gpt-4o-mini",
+      "vendor": "openai",
+      "context_window": 128000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/openai/gpt-5",
+      "vendor": "openai",
+      "context_window": 400000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/openai/gpt-5-mini",
+      "vendor": "openai",
+      "context_window": 400000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/openai/gpt-5-nano",
+      "vendor": "openai",
+      "context_window": 400000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/openai/gpt-5.1",
+      "vendor": "openai",
+      "context_window": 400000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/openai/gpt-5.2",
+      "vendor": "openai",
+      "context_window": 400000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/openai/gpt-5.4",
+      "vendor": "openai",
+      "context_window": 1050000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/openai/gpt-5.4-mini",
+      "vendor": "openai",
+      "context_window": 400000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/openai/gpt-5.4-nano",
+      "vendor": "openai",
+      "context_window": 400000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/openai/gpt-5.5",
+      "vendor": "openai",
+      "context_window": 1050000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/openai/gpt-5.6-luna",
+      "vendor": "openai",
+      "context_window": 1050000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/openai/gpt-5.6-sol",
+      "vendor": "openai",
+      "context_window": 1050000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/openai/gpt-5.6-terra",
+      "vendor": "openai",
+      "context_window": 1050000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/openai/gpt-6-astra",
+      "vendor": "openai",
+      "context_window": 1050000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/openai/gpt-6-luna",
+      "vendor": "openai",
+      "context_window": 1050000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/openai/gpt-6-sol",
+      "vendor": "openai",
+      "context_window": 1050000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/openai/gpt-6.1-sol",
+      "vendor": "openai",
+      "context_window": 1050000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/openai/gpt-oss-120b",
+      "vendor": "openai",
+      "context_window": 131072,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/openai/gpt-oss-20b",
+      "vendor": "openai",
+      "context_window": 131072,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/openai/o3",
+      "vendor": "openai",
+      "context_window": 200000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen2.5-vl-72b-instruct",
+      "vendor": "qwen",
+      "context_window": 128000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3-14b",
+      "vendor": "qwen",
+      "context_window": 40960,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3-235b-a22b-thinking-2507",
+      "vendor": "qwen",
+      "context_window": 128000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3-30b-a3b",
+      "vendor": "qwen",
+      "context_window": 40960,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3-30b-a3b-instruct-2507",
+      "vendor": "qwen",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3-32b",
+      "vendor": "qwen",
+      "context_window": 40960,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3-coder-30b-a3b-instruct",
+      "vendor": "qwen",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3-coder-next",
+      "vendor": "qwen",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3-next-80b-a3b-instruct",
+      "vendor": "qwen",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3-vl-235b-a22b-instruct",
+      "vendor": "qwen",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3-vl-30b-a3b-instruct",
+      "vendor": "qwen",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3-vl-8b-instruct",
+      "vendor": "qwen",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3.5-122b-a10b",
+      "vendor": "qwen",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3.5-27b",
+      "vendor": "qwen",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3.5-35b-a3b",
+      "vendor": "qwen",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3.5-397b-a17b",
+      "vendor": "qwen",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3.5-9b",
+      "vendor": "qwen",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3.6-27b",
+      "vendor": "qwen",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3.6-35b-a3b",
+      "vendor": "qwen",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3.8-2.4t-a95b",
+      "vendor": "qwen",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3.8-27b",
+      "vendor": "qwen",
+      "context_window": 65536,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/reflection/beam-1.0-501b-a23b",
+      "vendor": "reflection",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/stepfun/step-3.5-flash",
+      "vendor": "stepfun",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/stepfun/step-3.7-flash",
+      "vendor": "stepfun",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/tencent/hunyuan-a13b-instruct",
+      "vendor": "tencent",
+      "context_window": 131072,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/tencent/hy3",
+      "vendor": "tencent",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/tencent/hy3-preview",
+      "vendor": "tencent",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/tencent/hy4-preview",
+      "vendor": "tencent",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/thedrummer/cydonia-24b-v4.1",
+      "vendor": "thedrummer",
+      "context_window": 131072,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/thedrummer/skyfall-36b-v2",
+      "vendor": "thedrummer",
+      "context_window": 32768,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/thinkingmachines/inkling",
+      "vendor": "thinkingmachines",
+      "context_window": 524288,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/thinkingmachines/inkling-2-small",
+      "vendor": "thinkingmachines",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/thinkingmachines/inkling-small",
+      "vendor": "thinkingmachines",
+      "context_window": 524288,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/x-ai/grok-4.20",
+      "vendor": "x-ai",
+      "context_window": 2000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/x-ai/grok-4.20-multi-agent",
+      "vendor": "x-ai",
+      "context_window": 2000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/x-ai/grok-4.3",
+      "vendor": "x-ai",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/x-ai/grok-4.5",
+      "vendor": "x-ai",
+      "context_window": 500000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/x-ai/grok-4.6",
+      "vendor": "x-ai",
+      "context_window": 500000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/x-ai/grok-4.7",
+      "vendor": "x-ai",
+      "context_window": 500000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/x-ai/grok-build-0.1",
+      "vendor": "x-ai",
+      "context_window": 256000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/xiaomi/mimo-v2.5",
+      "vendor": "xiaomi",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/xiaomi/mimo-v2.5-pro",
+      "vendor": "xiaomi",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/xiaomi/mimo-v2.6-flash",
+      "vendor": "xiaomi",
+      "context_window": 1050000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/xiaomi/mimo-v2.6-pro",
+      "vendor": "xiaomi",
+      "context_window": 1050000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/z-ai/glm-4.5-air",
+      "vendor": "z-ai",
+      "context_window": 131072,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/z-ai/glm-4.6",
+      "vendor": "z-ai",
+      "context_window": 202752,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/z-ai/glm-4.7",
+      "vendor": "z-ai",
+      "context_window": 202752,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/z-ai/glm-4.7-flash",
+      "vendor": "z-ai",
+      "context_window": 131072,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/z-ai/glm-5",
+      "vendor": "z-ai",
+      "context_window": 202752,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/z-ai/glm-5-turbo",
+      "vendor": "z-ai",
+      "context_window": 202752,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/z-ai/glm-5.1",
+      "vendor": "z-ai",
+      "context_window": 202752,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/z-ai/glm-5.2",
+      "vendor": "z-ai",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/z-ai/glm-5.3",
+      "vendor": "z-ai",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/z-ai/glm-5.3-flash",
+      "vendor": "z-ai",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/z-ai/glm-5.3-flashx",
+      "vendor": "z-ai",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/z-ai/glm-5.3-flashx-legal",
+      "vendor": "z-ai",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/z-ai/glm-5v-turbo",
+      "vendor": "z-ai",
+      "context_window": 202752,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/decisionmodelsio/s1-vision",
+      "vendor": "decisionmodelsio",
+      "context_window": 16192,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/decisionmodelsio-eu/s1-vision",
+      "vendor": "decisionmodelsio-eu",
+      "context_window": 16192,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/abliterate/abliterate-0.3-balanced",
+      "vendor": "abliterate",
+      "context_window": null,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/abliterate/abliterate-0.3-clever",
+      "vendor": "abliterate",
+      "context_window": null,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/abliterate/abliterate-0.3-fast",
+      "vendor": "abliterate",
+      "context_window": null,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/abliteration/abliterated-model",
+      "vendor": "abliteration",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/abliteration/abliterated-model-large",
+      "vendor": "abliteration",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/abliteration/abliterated-model-large-flash",
+      "vendor": "abliteration",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/abliteration/abliterated-model-large-v2",
+      "vendor": "abliteration",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/decisionmodelsio/s1-fast",
+      "vendor": "decisionmodelsio",
+      "context_window": 16192,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/decisionmodelsio/s1-pro",
+      "vendor": "decisionmodelsio",
+      "context_window": 8192,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/decisionmodelsio/s1-fast-2",
+      "vendor": "decisionmodelsio",
+      "context_window": 16192,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/decisionmodelsio/s1-pro-2",
+      "vendor": "decisionmodelsio",
+      "context_window": 8192,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/decisionmodelsio/s1-pro-3",
+      "vendor": "decisionmodelsio",
+      "context_window": 16384,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/decisionmodelsio-eu/s1-fast",
+      "vendor": "decisionmodelsio-eu",
+      "context_window": 16192,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/decisionmodelsio-eu/s1-pro",
+      "vendor": "decisionmodelsio-eu",
+      "context_window": 8192,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/decisionmodelsio-eu/s1-fast-2",
+      "vendor": "decisionmodelsio-eu",
+      "context_window": 16192,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/decisionmodelsio-eu/s1-pro-2",
+      "vendor": "decisionmodelsio-eu",
+      "context_window": 8192,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/decisionmodelsio-eu/s1-pro-3",
+      "vendor": "decisionmodelsio-eu",
+      "context_window": 16384,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/decisionmodelsio-eu/s1-pro-5",
+      "vendor": "decisionmodelsio-eu",
+      "context_window": 8192,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/Sao10K/L3-8B-Stheno-v3.2",
+      "vendor": "Sao10K",
+      "context_window": 8192,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/baichuan/baichuan-m2-32b",
+      "vendor": "baichuan",
+      "context_window": 131072,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/deepseek/deepseek-ocr-2",
+      "vendor": "deepseek",
+      "context_window": 8192,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/deepseek/deepseek-r1-0528-qwen3-8b",
+      "vendor": "deepseek",
+      "context_window": 128000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/deepseek/deepseek-r1-turbo",
+      "vendor": "deepseek",
+      "context_window": 64000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/meta-llama/llama-4-maverick-17b-128e-instruct-fp8",
+      "vendor": "meta-llama",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/meta-llama/llama-4-scout-17b-16e-instruct",
+      "vendor": "meta-llama",
+      "context_window": 131072,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/microsoft/wizardlm-2-8x22b",
+      "vendor": "microsoft",
+      "context_window": 65535,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/minimaxai/minimax-m1-80k",
+      "vendor": "minimaxai",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/moonshotai/kimi-k2-instruct",
+      "vendor": "moonshotai",
+      "context_window": 131072,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/nousresearch/hermes-2-pro-llama-3-8b",
+      "vendor": "nousresearch",
+      "context_window": 8192,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/paddlepaddle/paddleocr-vl",
+      "vendor": "paddlepaddle",
+      "context_window": 16384,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen-mt-plus",
+      "vendor": "qwen",
+      "context_window": 16384,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3-omni-30b-a3b-thinking",
+      "vendor": "qwen",
+      "context_window": 65536,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/sao10k/l3-70b-euryale-v2.1",
+      "vendor": "sao10k",
+      "context_window": 8192,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/zai-org/autoglm-phone-9b-multilingual",
+      "vendor": "zai-org",
+      "context_window": 65536,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/zai-org/glm-4.5-air",
+      "vendor": "zai-org",
+      "context_window": 131072,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/zai-org/glm-4.5v",
+      "vendor": "zai-org",
+      "context_window": 65536,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/zai-org/glm-4.6",
+      "vendor": "zai-org",
+      "context_window": 204800,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/zai-org/glm-4.6v",
+      "vendor": "zai-org",
+      "context_window": 131072,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/zai-org/glm-4.7",
+      "vendor": "zai-org",
+      "context_window": 204800,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/zai-org/glm-4.7-flash",
+      "vendor": "zai-org",
+      "context_window": 200000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/zai-org/glm-5",
+      "vendor": "zai-org",
+      "context_window": 202800,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/baidu/cobuddy",
+      "vendor": "baidu",
+      "context_window": 131072,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3.7-max",
+      "vendor": "qwen",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/mindai/macaron-v1-venti",
+      "vendor": "mindai",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/mindai/macaron-v1-tall",
+      "vendor": "mindai",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3.8-max",
+      "vendor": "qwen",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3.8-flash",
+      "vendor": "qwen",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/z-ai/glm-5.3-p",
+      "vendor": "z-ai",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/deepseek/deepseek-v4.1-flash-p",
+      "vendor": "deepseek",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/deepseek/deepseek-v4-flash-0731-p",
+      "vendor": "deepseek",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/deepseek/deepseek-v4-pro-0813-p",
+      "vendor": "deepseek",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/deepseek/deepseek-v4.1-flash-dst",
+      "vendor": "deepseek",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/moonshotai/kimi-k3-p",
+      "vendor": "moonshotai",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/stepfun/step-5-preview",
+      "vendor": "stepfun",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/moonshotai/kimi-k3.1-pro-highspeed",
+      "vendor": "moonshotai",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/tencent/hy4",
+      "vendor": "tencent",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/meta-llama/Meta-Llama-3.1-8B-Instruct",
+      "vendor": "meta-llama",
+      "context_window": 128000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/google/gemma-2-2b-it",
+      "vendor": "google",
+      "context_window": 8192,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/NousResearch/Hermes-4-405B",
+      "vendor": "NousResearch",
+      "context_window": 131072,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/nvidia/nemotron-3_5-lightning",
+      "vendor": "nvidia",
+      "context_window": 8000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/meta-models/muse-spark-open",
+      "vendor": "meta-models",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/reflection/beam",
+      "vendor": "reflection",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/cerebras/gpt-oss-120b",
+      "vendor": "cerebras",
+      "context_window": 131072,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/google/gemini-3.1-flash-image-preview",
+      "vendor": "google",
+      "context_window": 65536,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/google/gemini-3.1-flash-image",
+      "vendor": "google",
+      "context_window": 65536,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/moonshotai/kimi-k3-fast",
+      "vendor": "moonshotai",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/z-ai/glm-5.3-fast",
+      "vendor": "z-ai",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/deepseek/deepseek-v4p1-flash",
+      "vendor": "deepseek",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/deepseek/deepseek-v4p1-flash-1017",
+      "vendor": "deepseek",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/anthropic/claude-haiku-4-5",
+      "vendor": "anthropic",
+      "context_window": 200000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/anthropic/claude-opus-4-7",
+      "vendor": "anthropic",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/anthropic/claude-opus-4-8",
+      "vendor": "anthropic",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/anthropic/claude-sonnet-4-6",
+      "vendor": "anthropic",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/bytedance/seed-1.8",
+      "vendor": "bytedance",
+      "context_window": 256000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/bytedance/seed-2.0-code",
+      "vendor": "bytedance",
+      "context_window": 256000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/bytedance/seed-2.0-mini",
+      "vendor": "bytedance",
+      "context_window": 256000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/bytedance/seed-2.0-pro",
+      "vendor": "bytedance",
+      "context_window": 256000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/deepseek/deepseek-v3",
+      "vendor": "deepseek",
+      "context_window": 163840,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/deepseek/deepseek-v3.1",
+      "vendor": "deepseek",
+      "context_window": 163840,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/google/gemini-3.1-pro",
+      "vendor": "google",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/google/gemma-4-31b-it-turbo",
+      "vendor": "google",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/google/gemma-4-31b-it-ultra",
+      "vendor": "google",
+      "context_window": 131072,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/meta-llama/llama-3.3-70b-instruct-turbo",
+      "vendor": "meta-llama",
+      "context_window": 131072,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/meta-llama/meta-llama-3.1-8b-instruct-turbo",
+      "vendor": "meta-llama",
+      "context_window": 131072,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/meta-models/muse-glimmer-30b",
+      "vendor": "meta-models",
+      "context_window": 131072,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/mistralai/mistral-nemo-instruct-2407",
+      "vendor": "mistralai",
+      "context_window": 131072,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/mistralai/mistral-small-3.2-24b-instruct-2506",
+      "vendor": "mistralai",
+      "context_window": 128000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/nvidia/nemotron-content-safety-3.5",
+      "vendor": "nvidia",
+      "context_window": 131072,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/openai/gpt-oss-120b-ultra",
+      "vendor": "openai",
+      "context_window": 131072,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen2.5-72b-instruct",
+      "vendor": "qwen",
+      "context_window": 32768,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3-235b-a22b-instruct-2507",
+      "vendor": "qwen",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3-coder-480b-a35b-instruct-turbo",
+      "vendor": "qwen",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/sao10k/l3-8b-lunaris-v1-turbo",
+      "vendor": "sao10k",
+      "context_window": 8192,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/sao10k/l3.1-70b-euryale-v2.2",
+      "vendor": "sao10k",
+      "context_window": 131072,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/anthropic/claude-opus-5-5",
+      "vendor": "anthropic",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/anthropic/claude-sonnet-5-5",
+      "vendor": "anthropic",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/deepseek/deepseek-flash",
+      "vendor": "deepseek",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/x-ai/grok-4.20-reasoning",
+      "vendor": "x-ai",
+      "context_window": null,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/deepseek/deepseek-v3-0324",
+      "vendor": "deepseek",
+      "context_window": 128000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/moonshotai/kimi-k2.7-code-highspeed",
+      "vendor": "moonshotai",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3-235b-a22b-instruct-2507-fp8",
+      "vendor": "qwen",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3-235b-a22b-thinking-2507-fp8",
+      "vendor": "qwen",
+      "context_window": 262141,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3-coder-480b-a35b-instruct-fp8",
+      "vendor": "qwen",
+      "context_window": 262128,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3-next-80b-a3b-thinking",
+      "vendor": "qwen",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3.6-plus",
+      "vendor": "qwen",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3.6-plus-2026-04-02",
+      "vendor": "qwen",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/z-ai/glm-4.7-fp8",
+      "vendor": "z-ai",
+      "context_window": 202752,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/x-ai/grok4.6",
+      "vendor": "x-ai",
+      "context_window": 2000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/stepfun-ai/step-3.7-flash",
+      "vendor": "stepfun-ai",
+      "context_window": 256000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3.8-max-0902",
+      "vendor": "qwen",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/stepfun-ai/step-5-preview",
+      "vendor": "stepfun-ai",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/gmicloud/ripple-65b-preview",
+      "vendor": "gmicloud",
+      "context_window": null,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/openai/chat-latest",
+      "vendor": "openai",
+      "context_window": null,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/openai/gpt-image-2.5-flare",
+      "vendor": "openai",
+      "context_window": null,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/openai/gpt-image-2.5-sunburst",
+      "vendor": "openai",
+      "context_window": null,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/prism-ml/ternary-bonsai-27b",
+      "vendor": "prism-ml",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/deepseek/deepseek-v4-flash-0731-fast",
+      "vendor": "deepseek",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/google/gemma-4-uncensored",
+      "vendor": "google",
+      "context_window": 256000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/meta-llama/llama-3.2-3b",
+      "vendor": "meta-llama",
+      "context_window": 128000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/meta-llama/llama-3.3-70b",
+      "vendor": "meta-llama",
+      "context_window": 128000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/minimax/minimax-m25",
+      "vendor": "minimax",
+      "context_window": 198000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/minimax/minimax-m27",
+      "vendor": "minimax",
+      "context_window": 198000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/minimax/minimax-m3-preview",
+      "vendor": "minimax",
+      "context_window": 524288,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/moonshotai/kimi-k2-5",
+      "vendor": "moonshotai",
+      "context_window": 256000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/moonshotai/kimi-k2-6",
+      "vendor": "moonshotai",
+      "context_window": 256000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/moonshotai/kimi-k2-7-code",
+      "vendor": "moonshotai",
+      "context_window": 256000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/moonshotai/kimi-k3-fast-api",
+      "vendor": "moonshotai",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen-3-6-plus",
+      "vendor": "qwen",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen-3-7-max",
+      "vendor": "qwen",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen-3-7-plus",
+      "vendor": "qwen",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen-3-8-2-4t-a95b",
+      "vendor": "qwen",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen-3-8-max",
+      "vendor": "qwen",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3-5-35b-a3b",
+      "vendor": "qwen",
+      "context_window": 256000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3-6-35b-a3b",
+      "vendor": "qwen",
+      "context_window": 256000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3-next-80b",
+      "vendor": "qwen",
+      "context_window": 256000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3-vl-235b-a22b",
+      "vendor": "qwen",
+      "context_window": 128000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen-3-8-flash",
+      "vendor": "qwen",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/deepseek/deepseek-v4-1-flash",
+      "vendor": "deepseek",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/deepseek/deepseek-v4-1-flash-1017",
+      "vendor": "deepseek",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/deepseek/deepseek-v4-1-flash-uncensored",
+      "vendor": "deepseek",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/moonshotai/kimi-k3-1-pro",
+      "vendor": "moonshotai",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/moonshotai/kimi-k3-1-pro-highspeed",
+      "vendor": "moonshotai",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/deepseek/deepseek-v4-1-flash-1017-uncensored",
+      "vendor": "deepseek",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/deepseek/deepseek-v4-1-flash-1017-ultrafast",
+      "vendor": "deepseek",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/reflection/beam-1.0",
+      "vendor": "reflection",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/z-ai/glm-5.2-fast",
+      "vendor": "z-ai",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/deepseek/deepseek-v4.1-flash-fast",
+      "vendor": "deepseek",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/nvidia/nemotron-3.5-super-vl-120b-a12b",
+      "vendor": "nvidia",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/deepseek/deepseek-v4.1-flash-1017-fast",
+      "vendor": "deepseek",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/decision-models/baseten-elephant-9b-latest",
+      "vendor": "decision-models",
+      "context_window": 16384,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/decision-models/baseten-mammoth-27b-latest",
+      "vendor": "decision-models",
+      "context_window": 16384,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/poolside/laguna-s-2.1",
+      "vendor": "poolside",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/deepseek/deepseek-v4-flash-0423",
+      "vendor": "deepseek",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/nvidia/nemotron-3.5-lightning-30b-a3b",
+      "vendor": "nvidia",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/xiaomi/mimo-v2.6-flash-rl",
+      "vendor": "xiaomi",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/google/gemma-4-31b-turbo",
+      "vendor": "google",
+      "context_window": 131072,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/mistralai/ministral-3-14b-instruct",
+      "vendor": "mistralai",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/aisingapore/gemma-sea-lion-v4-27b-it",
+      "vendor": "aisingapore",
+      "context_window": 128000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/deepseek/deepseek-r1-distill-qwen-32b",
+      "vendor": "deepseek",
+      "context_window": 80000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/meta-llama/llama-3.1-8b-instruct-fp8",
+      "vendor": "meta-llama",
+      "context_window": 32000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/meta-llama/llama-3.2-11b-vision-instruct",
+      "vendor": "meta-llama",
+      "context_window": 128000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/meta-llama/llama-3.2-1b-instruct",
+      "vendor": "meta-llama",
+      "context_window": 60000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/meta-llama/llama-3.3-70b-instruct-fp8-fast",
+      "vendor": "meta-llama",
+      "context_window": 24000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/mistralai/mistral-small-3.1-24b-instruct",
+      "vendor": "mistralai",
+      "context_window": 128000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/nvidia/nemotron-3-120b-a12b",
+      "vendor": "nvidia",
+      "context_window": 256000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen2.5-coder-32b-instruct",
+      "vendor": "qwen",
+      "context_window": 32768,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3-30b-a3b-fp8",
+      "vendor": "qwen",
+      "context_window": 32768,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwq-32b",
+      "vendor": "qwen",
+      "context_window": 24000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/cloudflare/clairic",
+      "vendor": "cloudflare",
+      "context_window": 65536,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/morph/morph-v3-fast",
+      "vendor": "morph",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/morph/morph-v3-large",
+      "vendor": "morph",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/anthropic/claude-haiku-4.5-20251001",
+      "vendor": "anthropic",
+      "context_window": 200000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/anthropic/claude-haiku-4.5-20251001-coding",
+      "vendor": "anthropic",
+      "context_window": 200000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/anthropic/claude-opus-4-20250514",
+      "vendor": "anthropic",
+      "context_window": 200000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/anthropic/claude-opus-4-20250514-coding",
+      "vendor": "anthropic",
+      "context_window": 200000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/anthropic/claude-opus-4.1-20250805",
+      "vendor": "anthropic",
+      "context_window": 200000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/anthropic/claude-opus-4.1-20250805-coding",
+      "vendor": "anthropic",
+      "context_window": 200000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/anthropic/claude-opus-4.5-20251101",
+      "vendor": "anthropic",
+      "context_window": 200000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/anthropic/claude-opus-4.5-20251101-coding",
+      "vendor": "anthropic",
+      "context_window": 200000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/anthropic/claude-opus-4.6-coding",
+      "vendor": "anthropic",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/anthropic/claude-opus-4.7-coding",
+      "vendor": "anthropic",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/anthropic/claude-opus-4.8-coding",
+      "vendor": "anthropic",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/anthropic/claude-sonnet-4-20250514-coding",
+      "vendor": "anthropic",
+      "context_window": 200000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/anthropic/claude-sonnet-4.5-20250929",
+      "vendor": "anthropic",
+      "context_window": 200000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/anthropic/claude-sonnet-4.5-20250929-coding",
+      "vendor": "anthropic",
+      "context_window": 200000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/anthropic/claude-sonnet-4.6-coding",
+      "vendor": "anthropic",
+      "context_window": 200000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/bytedance/doubao-seed-1.6-251015",
+      "vendor": "bytedance",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/bytedance/doubao-seed-1.6-flash-250828",
+      "vendor": "bytedance",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/bytedance/doubao-seed-1.8-251228",
+      "vendor": "bytedance",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/bytedance/doubao-seed-2.0-code-preview-260215",
+      "vendor": "bytedance",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/bytedance/doubao-seed-2.0-lite-260428",
+      "vendor": "bytedance",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/bytedance/doubao-seed-2.0-mini-260428",
+      "vendor": "bytedance",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/bytedance/doubao-seed-2.0-pro-260215",
+      "vendor": "bytedance",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/bytedance/doubao-seed-2.1-pro-260628",
+      "vendor": "bytedance",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/bytedance/doubao-seed-2.1-turbo-260628",
+      "vendor": "bytedance",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/bytedance/doubao-seed-evolving",
+      "vendor": "bytedance",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/deepseek/deepseek-ocr",
+      "vendor": "deepseek",
+      "context_window": 8192,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/kwaipilot/kat-coder-air-v2.5",
+      "vendor": "kwaipilot",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/meituan-longcat/longcat-2.0",
+      "vendor": "meituan-longcat",
+      "context_window": 1048756,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3.5-flash",
+      "vendor": "qwen",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3.5-plus",
+      "vendor": "qwen",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3.7-plus",
+      "vendor": "qwen",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/bytedance/doubao-seed-character-260628",
+      "vendor": "bytedance",
+      "context_window": 131072,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/openai/gpt-5.6-sol-az",
+      "vendor": "openai",
+      "context_window": 1050000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/openai/gpt-5.6-luna-az",
+      "vendor": "openai",
+      "context_window": 1050000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/openai/gpt-5.6-terra-az",
+      "vendor": "openai",
+      "context_window": 1050000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/anthropic/claude-haiku-4.5-20251001-aws",
+      "vendor": "anthropic",
+      "context_window": 200000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/anthropic/claude-opus-4.6-aws",
+      "vendor": "anthropic",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/anthropic/claude-opus-4.7-aws",
+      "vendor": "anthropic",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/anthropic/claude-opus-4.8-aws",
+      "vendor": "anthropic",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/anthropic/claude-sonnet-4.6-aws",
+      "vendor": "anthropic",
+      "context_window": 200000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/anthropic/claude-opus-5-aws",
+      "vendor": "anthropic",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/anthropic/claude-sonnet-5-aws",
+      "vendor": "anthropic",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/openai/gpt-5.6-sol-codex",
+      "vendor": "openai",
+      "context_window": 1050000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/openai/gpt-6-sol-codex",
+      "vendor": "openai",
+      "context_window": 1050000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/ibm-granite/granite-4.1-8b",
+      "vendor": "ibm-granite",
+      "context_window": 32768,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/google/gemma-4-12b-it",
+      "vendor": "google",
+      "context_window": 32768,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/neurometric/tool-choice",
+      "vendor": "neurometric",
+      "context_window": 32768,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/neurometric/document-structured-extraction",
+      "vendor": "neurometric",
+      "context_window": 49152,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/neurometric/classification-router",
+      "vendor": "neurometric",
+      "context_window": 32768,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/neurometric/conversation-summary",
+      "vendor": "neurometric",
+      "context_window": 49152,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/neurometric/grounded-document-qa",
+      "vendor": "neurometric",
+      "context_window": 49152,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/scaledown/classify",
+      "vendor": "scaledown",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/scaledown/compress",
+      "vendor": "scaledown",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/scaledown/extract",
+      "vendor": "scaledown",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/scaledown/summarize",
+      "vendor": "scaledown",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/stepfun/step-3.5-flash-2603",
+      "vendor": "stepfun",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/recraft/recraftv2",
+      "vendor": "recraft",
+      "context_window": null,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/recraft/recraftv3",
+      "vendor": "recraft",
+      "context_window": null,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/recraft/recraftv4",
+      "vendor": "recraft",
+      "context_window": null,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/recraft/recraftv4_1",
+      "vendor": "recraft",
+      "context_window": null,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/recraft/recraftv4_1_pro",
+      "vendor": "recraft",
+      "context_window": null,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/recraft/recraftv4_1_utility",
+      "vendor": "recraft",
+      "context_window": null,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/recraft/recraftv4_1_utility_pro",
+      "vendor": "recraft",
+      "context_window": null,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/recraft/recraftv4_pro",
+      "vendor": "recraft",
+      "context_window": null,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/black-forest-labs/flux-2-flex",
+      "vendor": "black-forest-labs",
+      "context_window": null,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/black-forest-labs/flux-2-klein-4b",
+      "vendor": "black-forest-labs",
+      "context_window": null,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/black-forest-labs/flux-2-klein-9b",
+      "vendor": "black-forest-labs",
+      "context_window": null,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/black-forest-labs/flux-2-max",
+      "vendor": "black-forest-labs",
+      "context_window": null,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/black-forest-labs/flux-2-pro",
+      "vendor": "black-forest-labs",
+      "context_window": null,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/decart/lucy-image-2",
+      "vendor": "decart",
+      "context_window": null,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+      "vendor": "nvidia",
+      "context_window": null,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/poolside/laguna-xs-2.1",
+      "vendor": "poolside",
+      "context_window": null,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/meta-llama/llama-3.2-90b-vision-instruct",
+      "vendor": "meta-llama",
+      "context_window": null,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/nvidia/nemotron-3.5-bolt-e4b",
+      "vendor": "nvidia",
+      "context_window": null,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/mistralai/mistral-large-4-1t-a52b",
+      "vendor": "mistralai",
+      "context_window": null,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3-embedding-8b",
+      "vendor": "qwen",
+      "context_window": 32768,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3.8-flash-next-fp8",
+      "vendor": "qwen",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/zero-g/0gm-1.0-35b-a3b",
+      "vendor": "zero-g",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/zero-g/0gm-1.0-35b-a3b-sia",
+      "vendor": "zero-g",
+      "context_window": 32768,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/nomic-ai/nomic-embed-text",
+      "vendor": "nomic-ai",
+      "context_window": 8192,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/openai/gpt-oss-safeguard-120b",
+      "vendor": "openai",
+      "context_window": 131072,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/xiaomi/mimo-v2.6-pro-ultraspeed",
+      "vendor": "xiaomi",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3.7-max-2026-06-08",
+      "vendor": "qwen",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3.7-plus-2026-05-26",
+      "vendor": "qwen",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3.7-max-2026-05-20",
+      "vendor": "qwen",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3.6-flash-2026-04-16",
+      "vendor": "qwen",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3.6-flash",
+      "vendor": "qwen",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3.5-plus-2026-02-15",
+      "vendor": "qwen",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen-vl-ocr-2025-11-20",
+      "vendor": "qwen",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen-vl-ocr",
+      "vendor": "qwen",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3.5-flash-2026-02-23",
+      "vendor": "qwen",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3-vl-plus-2025-12-19",
+      "vendor": "qwen",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen-mt-lite",
+      "vendor": "qwen",
+      "context_window": 131072,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen-mt-flash",
+      "vendor": "qwen",
+      "context_window": 131072,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen-plus-2025-07-28",
+      "vendor": "qwen",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen-plus-2025-09-11",
+      "vendor": "qwen",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen-plus-2025-12-01",
+      "vendor": "qwen",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen-plus",
+      "vendor": "qwen",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen-flash-2025-07-28",
+      "vendor": "qwen",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen-flash",
+      "vendor": "qwen",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3-vl-plus-2025-09-23",
+      "vendor": "qwen",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3-vl-plus",
+      "vendor": "qwen",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3-coder-flash",
+      "vendor": "qwen",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3-coder-flash-2025-07-28",
+      "vendor": "qwen",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen-plus-character",
+      "vendor": "qwen",
+      "context_window": null,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3.7-flash",
+      "vendor": "qwen",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3.7-flash-2026-07-15",
+      "vendor": "qwen",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/cohere/command-a",
+      "vendor": "cohere",
+      "context_window": null,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/x-ai/grok-4.1-fast-non-reasoning",
+      "vendor": "x-ai",
+      "context_window": null,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/x-ai/grok-4.1-fast-reasoning",
+      "vendor": "x-ai",
+      "context_window": null,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/x-ai/grok-4.20-non-reasoning",
+      "vendor": "x-ai",
+      "context_window": null,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/upstage/solar-pro4",
+      "vendor": "upstage",
+      "context_window": null,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/google/gemma-4-31b-it-nvfp4",
+      "vendor": "google",
+      "context_window": null,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/reka/reka-edge-2603",
+      "vendor": "reka",
+      "context_window": 16384,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/bsc-lt/alia-40b-instruct-2601",
+      "vendor": "bsc-lt",
+      "context_window": 65536,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/undi95/remm-slerp-l2-13b",
+      "vendor": "undi95",
+      "context_window": null,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/aion-labs/aion-2.0",
+      "vendor": "aion-labs",
+      "context_window": 131072,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/aion-labs/aion-3.0",
+      "vendor": "aion-labs",
+      "context_window": 131072,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/aion-labs/aion-3.0-mini",
+      "vendor": "aion-labs",
+      "context_window": 131072,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/aion-labs/aion-rp-llama-3.1-8b",
+      "vendor": "aion-labs",
+      "context_window": 32768,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/aion-labs/aion-3.5",
+      "vendor": "aion-labs",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/aion-labs/aion-3.5-mini",
+      "vendor": "aion-labs",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/inception/mercury-2",
+      "vendor": "inception",
+      "context_window": 128000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/inception/mercury-2.5",
+      "vendor": "inception",
+      "context_window": 260000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/inception/mercury-3",
+      "vendor": "inception",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/intel/qwen3-coder-480b-a35b-instruct-int4-mixed-ar",
+      "vendor": "intel",
+      "context_window": 106000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/moonshotai/kimi-k2-instruct-0905",
+      "vendor": "moonshotai",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/moonshotai/kimi-k2.8-preview",
+      "vendor": "moonshotai",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/mistralai/mistral-medium-3.5-128b",
+      "vendor": "mistralai",
+      "context_window": null,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/swiss-ai/apertus-70b-instruct",
+      "vendor": "swiss-ai",
+      "context_window": 30000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/cloudflare/clef-flash",
+      "vendor": "cloudflare",
+      "context_window": 65536,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/minimax/minimax-m2",
+      "vendor": "minimax",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/minimax/minimax-m2.1",
+      "vendor": "minimax",
+      "context_window": 196000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/mistralai/devstral-2-123b",
+      "vendor": "mistralai",
+      "context_window": 4096,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/mistralai/magistral-small-2509",
+      "vendor": "mistralai",
+      "context_window": 4096,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/mistralai/ministral-3-3b-instruct",
+      "vendor": "mistralai",
+      "context_window": 4096,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/mistralai/ministral-3-8b-instruct",
+      "vendor": "mistralai",
+      "context_window": 4096,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/nvidia/nemotron-nano-12b-v2",
+      "vendor": "nvidia",
+      "context_window": 4096,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/nvidia/nemotron-nano-9b-v2",
+      "vendor": "nvidia",
+      "context_window": 4096,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/openai/gpt-oss-safeguard-20b",
+      "vendor": "openai",
+      "context_window": 128000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3-coder-480b-a35b-instruct",
+      "vendor": "qwen",
+      "context_window": 256000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/writer/palmyra-vision-7b",
+      "vendor": "writer",
+      "context_window": 4000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3-8b",
+      "vendor": "qwen",
+      "context_window": 41000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/orcarouter/qwen-3.8-27b-uncensored",
+      "vendor": "orcarouter",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/coralbricks/deepseek-v4.1-flash",
+      "vendor": "coralbricks",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/coralbricks/deepseek-v4.1-flash-value",
+      "vendor": "coralbricks",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/zro/dolly2-security",
+      "vendor": "zro",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/zro/abyss1",
+      "vendor": "zro",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/bytedance/dola-seed-2-1-turbo-260628",
+      "vendor": "bytedance",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/bytedance/seed-2-0-code-preview-260328",
+      "vendor": "bytedance",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/bytedance/seed-2-0-lite-260428",
+      "vendor": "bytedance",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/bytedance/seed-2-0-mini-260428",
+      "vendor": "bytedance",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/bytedance/seed-2-0-pro-260328",
+      "vendor": "bytedance",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/bytedance/seedance-2.0",
+      "vendor": "bytedance",
+      "context_window": 10000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/bytedance/seedance-2.0-fast",
+      "vendor": "bytedance",
+      "context_window": 10000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/bytedance/seedance-2.5",
+      "vendor": "bytedance",
+      "context_window": 15000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3-embedding-4b",
+      "vendor": "qwen",
+      "context_window": 32768,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/dealignai/deepseek-v4.1-flash-1017-uncensored",
+      "vendor": "dealignai",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3.8-flash-next",
+      "vendor": "qwen",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/xiaomi/mimo-v2.6-distill-qwen-9b",
+      "vendor": "xiaomi",
+      "context_window": 32768,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3.5-2b",
+      "vendor": "qwen",
+      "context_window": 32768,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3.5-4b",
+      "vendor": "qwen",
+      "context_window": 32768,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/webworld-8b",
+      "vendor": "qwen",
+      "context_window": 32768,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen-agentworld-35b-a3b",
+      "vendor": "qwen",
+      "context_window": 32768,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3-4b-instruct-2507",
+      "vendor": "qwen",
+      "context_window": 32768,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3-4b-thinking-2507",
+      "vendor": "qwen",
+      "context_window": 32768,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3-vl-2b-instruct",
+      "vendor": "qwen",
+      "context_window": 32768,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3-vl-32b-instruct",
+      "vendor": "qwen",
+      "context_window": 32768,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3-vl-4b-instruct",
+      "vendor": "qwen",
+      "context_window": 32768,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3guard-gen-0.6b",
+      "vendor": "qwen",
+      "context_window": 32768,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3guard-gen-8b",
+      "vendor": "qwen",
+      "context_window": 32768,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/stepfun-ai/step-3.5-flash",
+      "vendor": "stepfun-ai",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/sakana-ai/fugu-ultra-v1.1",
+      "vendor": "sakana-ai",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/perplexity/sonar",
+      "vendor": "perplexity",
+      "context_window": null,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/krea/krea-2-medium",
+      "vendor": "krea",
+      "context_window": null,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/fal/flux-1-schnell",
+      "vendor": "fal",
+      "context_window": null,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/bytedance-seed/seed-2-1-turbo",
+      "vendor": "bytedance-seed",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/archimedes-1.0",
+      "vendor": "trustedrouter",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/trev-1.0",
+      "vendor": "trustedrouter",
+      "context_window": 131072,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/mev-1.0",
+      "vendor": "trustedrouter",
+      "context_window": 1000000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/zev-1.0",
+      "vendor": "trustedrouter",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/lev-1.0",
+      "vendor": "trustedrouter",
+      "context_window": 128000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/gev-1.0",
+      "vendor": "trustedrouter",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/dev-1.0",
+      "vendor": "trustedrouter",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/oev-1.0",
+      "vendor": "trustedrouter",
+      "context_window": 131072,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/gemmev-1.0",
+      "vendor": "trustedrouter",
+      "context_window": 262144,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/openai/text-embedding-3-large",
+      "vendor": "openai",
+      "context_window": 8191,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/openai/text-embedding-3-small",
+      "vendor": "openai",
+      "context_window": 8191,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/openai/text-embedding-ada-002",
+      "vendor": "openai",
+      "context_window": 8191,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/google/gemini-embedding-001",
+      "vendor": "google",
+      "context_window": 2048,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/intfloat/multilingual-e5-large-instruct",
+      "vendor": "intfloat",
+      "context_window": 512,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/cohere/embed-v4.0",
+      "vendor": "cohere",
+      "context_window": 128000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/cohere/embed-english-v3.0",
+      "vendor": "cohere",
+      "context_window": 512,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/cohere/embed-multilingual-v3.0",
+      "vendor": "cohere",
+      "context_window": 512,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/voyage/voyage-3-large",
+      "vendor": "voyage",
+      "context_window": 32000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/jina-ai/jina-clip-v1",
+      "vendor": "jina-ai",
+      "context_window": 8192,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/jina-ai/jina-clip-v2",
+      "vendor": "jina-ai",
+      "context_window": 8192,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/jina-ai/jina-code-embeddings-0.5b",
+      "vendor": "jina-ai",
+      "context_window": 32768,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/jina-ai/jina-code-embeddings-1.5b",
+      "vendor": "jina-ai",
+      "context_window": 32768,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/jina-ai/jina-colbert-v2",
+      "vendor": "jina-ai",
+      "context_window": 8192,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/jina-ai/jina-embedding-b-en-v1",
+      "vendor": "jina-ai",
+      "context_window": 512,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/jina-ai/jina-embeddings-v2-base-code",
+      "vendor": "jina-ai",
+      "context_window": 8192,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/jina-ai/jina-embeddings-v2-base-de",
+      "vendor": "jina-ai",
+      "context_window": 8192,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/jina-ai/jina-embeddings-v2-base-en",
+      "vendor": "jina-ai",
+      "context_window": 8192,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/jina-ai/jina-embeddings-v2-base-es",
+      "vendor": "jina-ai",
+      "context_window": 8192,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/jina-ai/jina-embeddings-v2-base-zh",
+      "vendor": "jina-ai",
+      "context_window": 8192,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/jina-ai/jina-embeddings-v3",
+      "vendor": "jina-ai",
+      "context_window": 8192,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/jina-ai/jina-embeddings-v4",
+      "vendor": "jina-ai",
+      "context_window": 32768,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/jina-ai/jina-embeddings-v5-omni-nano",
+      "vendor": "jina-ai",
+      "context_window": 8192,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/jina-ai/jina-embeddings-v5-omni-small",
+      "vendor": "jina-ai",
+      "context_window": 32768,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/jina-ai/jina-embeddings-v5-text-nano",
+      "vendor": "jina-ai",
+      "context_window": 8192,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/jina-ai/jina-embeddings-v5-text-small",
+      "vendor": "jina-ai",
+      "context_window": 32768,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/microsoft/microsoft-decision-1",
+      "vendor": "microsoft",
+      "context_window": 32768,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/typesafe-ai/jev",
+      "vendor": "typesafe-ai",
+      "context_window": 32000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/lightricks/ltx-2.3",
+      "vendor": "lightricks",
+      "context_window": 5000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/lightricks/ltx-2.3-fast",
+      "vendor": "lightricks",
+      "context_window": 5000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/google/gemini-omni-flash",
+      "vendor": "google",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/minimax/hailuo-3",
+      "vendor": "minimax",
+      "context_window": 7000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/minimax/h3-max",
+      "vendor": "minimax",
+      "context_window": 10000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/google/veo-3.1",
+      "vendor": "google",
+      "context_window": 2500,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/google/veo-3.1-fast",
+      "vendor": "google",
+      "context_window": 2500,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/openai/sora-2",
+      "vendor": "openai",
+      "context_window": 2500,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/openai/sora-2-pro",
+      "vendor": "openai",
+      "context_window": 2500,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/runway/gen-4.5",
+      "vendor": "runway",
+      "context_window": 1000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/kling/v3-pro",
+      "vendor": "kling",
+      "context_window": 3072,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/kling/o3-pro",
+      "vendor": "kling",
+      "context_window": 3072,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/alibaba/wan-2.7",
+      "vendor": "alibaba",
+      "context_window": 5000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/x-ai/grok-imagine-video",
+      "vendor": "x-ai",
+      "context_window": 10000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/shengshu/vidu-q3",
+      "vendor": "shengshu",
+      "context_window": 2500,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/pixverse/c1",
+      "vendor": "pixverse",
+      "context_window": 2500,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/decart/lucy-2.5",
+      "vendor": "decart",
+      "context_window": 10000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/decart/lucy-vton-3.5",
+      "vendor": "decart",
+      "context_window": 10000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/decart/lucy-restyle-2",
+      "vendor": "decart",
+      "context_window": 10000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/x-ai/grok-voice-tts-1.0",
+      "vendor": "x-ai",
+      "context_window": null,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/mistralai/voxtral-mini-tts-2603",
+      "vendor": "mistralai",
+      "context_window": null,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/google/gemini-3.8-flash-tts",
+      "vendor": "google",
+      "context_window": 8192,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/google/gemini-3.8-flash-lite-tts",
+      "vendor": "google",
+      "context_window": 8192,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/elevenlabs/eleven-v3",
+      "vendor": "elevenlabs",
+      "context_window": null,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/elevenlabs/eleven-multilingual-v2",
+      "vendor": "elevenlabs",
+      "context_window": null,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/elevenlabs/eleven-flash-v2.5",
+      "vendor": "elevenlabs",
+      "context_window": null,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/elevenlabs/eleven-turbo-v2.5",
+      "vendor": "elevenlabs",
+      "context_window": null,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/microsoft/mai-voice-2.1",
+      "vendor": "microsoft",
+      "context_window": null,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/microsoft/mai-voice-2.1-flash",
+      "vendor": "microsoft",
+      "context_window": null,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/qwen/qwen3-tts",
+      "vendor": "qwen",
+      "context_window": null,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/mistralai/voxtral-4b-tts-2603",
+      "vendor": "mistralai",
+      "context_window": null,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/mistralai/voxtral-small-24b",
+      "vendor": "mistralai",
+      "context_window": 32768,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/openai/whisper-large-v3-turbo",
+      "vendor": "openai",
+      "context_window": null,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/openai/whisper-1",
+      "vendor": "openai",
+      "context_window": null,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/mistralai/voxtral-mini-2602",
+      "vendor": "mistralai",
+      "context_window": null,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/mistralai/voxtral-mini-3b-2507",
+      "vendor": "mistralai",
+      "context_window": null,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/openai/whisper-large-v3",
+      "vendor": "openai",
+      "context_window": null,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/deepseek/fetch",
+      "vendor": "deepseek",
+      "context_window": null,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/polyphemus-1.0",
+      "vendor": "trustedrouter",
+      "context_window": 65536,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/deepseek/deepseek-v4-pro-0423",
+      "vendor": "deepseek",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/deepseek/deepseek-v4-pro-0813",
+      "vendor": "deepseek",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/frontier",
+      "vendor": "trustedrouter",
+      "context_window": 1050000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/advanced",
+      "vendor": "trustedrouter",
+      "context_window": 1050000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/professional",
+      "vendor": "trustedrouter",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/trustedrouter/efficient",
+      "vendor": "trustedrouter",
+      "context_window": 1050000,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
+      "collected": "2026-11-13"
+    },
+    {
+      "id": "trustedrouter/fortanix/glm-5.3-flash",
+      "vendor": "fortanix",
+      "context_window": 1048576,
+      "source": "trustedrouter",
+      "source_url": "https://trustedrouter.com/v1/models",
       "collected": "2026-11-13"
     }
   ]
