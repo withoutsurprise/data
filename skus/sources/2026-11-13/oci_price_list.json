@@ -1,0 +1,1841 @@
+[
+ {
+  "pn": "B93297",
+  "cells": [
+   "Compute \u2013 Ampere A1 \u2013 OCPU",
+   "$0.01",
+   "$0.01",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B93298",
+  "cells": [
+   "Compute \u2013 Ampere A1 \u2013 Memory",
+   "\u2014",
+   "$0.0015",
+   "Gigabyte per hour"
+  ]
+ },
+ {
+  "pn": "B109529",
+  "cells": [
+   "Compute - Standard - A2 - OCPU",
+   "$0.007",
+   "$0.014",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B109530",
+  "cells": [
+   "Compute - Standard - A2 - Memory",
+   "\u2014",
+   "$0.002",
+   "Gigabyte per hour"
+  ]
+ },
+ {
+  "pn": "B88514",
+  "cells": [
+   "Compute - Virtual Machine Standard - X7",
+   "$0.0319",
+   "$0.0638",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B92306",
+  "cells": [
+   "Compute - Standard - E3 - OCPU",
+   "$0.0125",
+   "$0.025",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B92307",
+  "cells": [
+   "Compute - Standard - E3 - Memory",
+   "\u2014",
+   "$0.0015",
+   "Gigabyte per hour"
+  ]
+ },
+ {
+  "pn": "B93113",
+  "cells": [
+   "Compute - Standard - E4 - OCPU",
+   "$0.0125",
+   "$0.025",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B93114",
+  "cells": [
+   "Compute - Standard - E4 - Memory",
+   "\u2014",
+   "$0.0015",
+   "Gigabyte per hour"
+  ]
+ },
+ {
+  "pn": "B97384",
+  "cells": [
+   "Compute - Standard - E5 - OCPU",
+   "$0.015",
+   "$0.03",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B97385",
+  "cells": [
+   "Compute - Standard - E5 - Memory",
+   "\u2014",
+   "$0.002",
+   "Gigabyte per hour"
+  ]
+ },
+ {
+  "pn": "B93311",
+  "cells": [
+   "Compute - Virtual Machine Optimized - X9",
+   "$0.027",
+   "$0.054",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B93312",
+  "cells": [
+   "Compute - Virtual Machine Optimized - X9 - Memory",
+   "\u2014",
+   "$0.0015",
+   "Gigabyte per hour"
+  ]
+ },
+ {
+  "pn": "B94176",
+  "cells": [
+   "Compute - Virtual Machine Standard - X9",
+   "$0.02",
+   "$0.04",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B94177",
+  "cells": [
+   "Compute - Virtual Machine Standard - X9 - Memory",
+   "\u2014",
+   "$0.0015",
+   "Gigabyte per hour"
+  ]
+ },
+ {
+  "pn": "B88518",
+  "cells": [
+   "VM.GPU2.1 (NVIDIA P100)",
+   "\u2014",
+   "$1.275",
+   "GPU per hour"
+  ]
+ },
+ {
+  "pn": "B89734",
+  "cells": [
+   "VM.GPU3.x (NVIDIA V100 Tensor Core \u2013 16 GB)",
+   "\u2014",
+   "$2.95",
+   "GPU per hour"
+  ]
+ },
+ {
+  "pn": "B110519",
+  "cells": [
+   "BM.GPU.H200.8",
+   "\u2014",
+   "$10.00",
+   "GPU per hour"
+  ]
+ },
+ {
+  "pn": "B98415",
+  "cells": [
+   "BM.GPU.H100.8",
+   "\u2014",
+   "$10.00",
+   "GPU per hour"
+  ]
+ },
+ {
+  "pn": "B109479",
+  "cells": [
+   "BM.GPU.L40S-NC.4",
+   "\u2014",
+   "$3.50",
+   "GPU per hour"
+  ]
+ },
+ {
+  "pn": "B88517",
+  "cells": [
+   "BM.GPU2.2 (2 x NVIDIA P100)",
+   "\u2014",
+   "$1.275",
+   "GPU per hour"
+  ]
+ },
+ {
+  "pn": "B89734",
+  "cells": [
+   "BM.GPU3.8 (8 x NVIDIA V100 Tensor Core)",
+   "\u2014",
+   "$2.95",
+   "GPU per hour"
+  ]
+ },
+ {
+  "pn": "B92740",
+  "cells": [
+   "BM.GPU4.8 (8 x NVIDIA A100 40 GB Tensor Core)",
+   "\u2014",
+   "$3.05",
+   "GPU per hour"
+  ]
+ },
+ {
+  "pn": "B95907",
+  "cells": [
+   "BM.GPU.A100-v2.8 (8x NVIDIA A100 80GB Tensor Core)",
+   "\u2014",
+   "$4.00",
+   "GPU per hour"
+  ]
+ },
+ {
+  "pn": "B95909",
+  "cells": [
+   "BM.GPUA10.4 (4 x NVIDIA A10 Tensor Core)",
+   "\u2014",
+   "$2.00",
+   "GPU per hour"
+  ]
+ },
+ {
+  "pn": "B95909",
+  "cells": [
+   "VM.GPU.A10.1 (1 x NVIDIA A10 Tensor Core)",
+   "\u2014",
+   "$2.00",
+   "GPU per hour"
+  ]
+ },
+ {
+  "pn": "B95909",
+  "cells": [
+   "VM.GPU.A10.2 (2 x NVIDIA A10 Tensor Core)",
+   "\u2014",
+   "$2.00",
+   "GPU per hour"
+  ]
+ },
+ {
+  "pn": "B91961",
+  "cells": [
+   "Block Volume Storage",
+   "\u2014",
+   "$0.0255",
+   "Gigabyte storage capacity per month"
+  ]
+ },
+ {
+  "pn": "B91962",
+  "cells": [
+   "Block Volume Performance Units",
+   "\u2014",
+   "$0.0017",
+   "Performance units per gigabyte per month (10 VPUs at $0.017 for balanced performance)"
+  ]
+ },
+ {
+  "pn": "B91628",
+  "cells": [
+   "Object Storage - Storage",
+   "\u2014",
+   "$0.0255",
+   "Gigabyte storage capacity per month"
+  ]
+ },
+ {
+  "pn": "B91628",
+  "cells": [
+   "Object Storage - Storage",
+   "\u2014",
+   "$0.0255",
+   "Gigabyte storage capacity per month"
+  ]
+ },
+ {
+  "pn": "B93297",
+  "cells": [
+   "Compute \u2013 Ampere A1 \u2013 OCPU",
+   "$0.01",
+   "$0.01",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B93298",
+  "cells": [
+   "Compute \u2013 Ampere A1 \u2013 Memory",
+   "\u2014",
+   "$0.0015",
+   "Gigabyte per hour"
+  ]
+ },
+ {
+  "pn": "B109529",
+  "cells": [
+   "Compute - Standard - A2 - OCPU",
+   "$0.007",
+   "$0.014",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B109530",
+  "cells": [
+   "Compute - Standard - A2 - Memory",
+   "\u2014",
+   "$0.002",
+   "Gigabyte per hour"
+  ]
+ },
+ {
+  "pn": "B92306",
+  "cells": [
+   "Compute - Standard - E3 - OCPU",
+   "$0.0125",
+   "$0.025",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B92307",
+  "cells": [
+   "Compute - Standard - E3 - Memory",
+   "\u2014",
+   "$0.0015",
+   "Gigabyte per hour"
+  ]
+ },
+ {
+  "pn": "B93113",
+  "cells": [
+   "Compute - Standard - E4 - OCPU",
+   "$0.0125",
+   "$0.025",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B93114",
+  "cells": [
+   "Compute - Standard - E4 - Memory",
+   "\u2014",
+   "$0.0015",
+   "Gigabyte per hour"
+  ]
+ },
+ {
+  "pn": "B97384",
+  "cells": [
+   "Compute - Standard - E5 - OCPU",
+   "$0.015",
+   "$0.03",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B97385",
+  "cells": [
+   "Compute - Standard - E5 - Memory",
+   "\u2014",
+   "$0.002",
+   "Gigabyte per hour"
+  ]
+ },
+ {
+  "pn": "B94176",
+  "cells": [
+   "Compute - Virtual Machine Standard - X9",
+   "$0.02",
+   "$0.04",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B94177",
+  "cells": [
+   "Compute - Virtual Machine Standard - X9 - Memory",
+   "\u2014",
+   "$0.0015",
+   "Gigabyte per hour"
+  ]
+ },
+ {
+  "pn": "B93311",
+  "cells": [
+   "Compute - Virtual Machine Optimized - X9",
+   "$0.027",
+   "$0.054",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B93312",
+  "cells": [
+   "Compute - Virtual Machine Optimized - X9 - Memory",
+   "\u2014",
+   "$0.0015",
+   "Gigabyte per hour"
+  ]
+ },
+ {
+  "pn": "B88514",
+  "cells": [
+   "Compute - Virtual Machine Standard - X7",
+   "$0.0319",
+   "$0.0638",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B88518",
+  "cells": [
+   "VM.GPU2.1 (NVIDIA P100)",
+   "\u2014",
+   "$1.275",
+   "GPU per hour"
+  ]
+ },
+ {
+  "pn": "B89734",
+  "cells": [
+   "VM.GPU3.x (NVIDIA V100 Tensor Core \u2013 16 GB)",
+   "\u2014",
+   "$2.95",
+   "GPU per hour"
+  ]
+ },
+ {
+  "pn": "B110519",
+  "cells": [
+   "BM.GPU.H200.8",
+   "\u2014",
+   "$10.00",
+   "GPU per hour"
+  ]
+ },
+ {
+  "pn": "B98415",
+  "cells": [
+   "BM.GPU.H100.8",
+   "\u2014",
+   "$10.00",
+   "GPU per hour"
+  ]
+ },
+ {
+  "pn": "B109479",
+  "cells": [
+   "BM.GPU.L40S-NC.4",
+   "\u2014",
+   "$3.50",
+   "GPU per hour"
+  ]
+ },
+ {
+  "pn": "B88517",
+  "cells": [
+   "BM.GPU2.2 (2 x NVIDIA P100)",
+   "\u2014",
+   "$1.275",
+   "GPU per hour"
+  ]
+ },
+ {
+  "pn": "B89734",
+  "cells": [
+   "BM.GPU3.8 (8 x NVIDIA V100 Tensor Core)",
+   "\u2014",
+   "$2.95",
+   "GPU per hour"
+  ]
+ },
+ {
+  "pn": "B92740",
+  "cells": [
+   "BM.GPU4.8 (8 x NVIDIA A100 40 GB Tensor Core)",
+   "\u2014",
+   "$3.05",
+   "GPU per hour"
+  ]
+ },
+ {
+  "pn": "B95907",
+  "cells": [
+   "BM.GPU.A100-v2.8 (8x NVIDIA A100 80GB Tensor Core)",
+   "\u2014",
+   "$4.00",
+   "GPU per hour"
+  ]
+ },
+ {
+  "pn": "B95909",
+  "cells": [
+   "BM.GPUA10.4 (4 x NVIDIA A10 Tensor Core)",
+   "\u2014",
+   "$2.00",
+   "GPU per hour"
+  ]
+ },
+ {
+  "pn": "B95909",
+  "cells": [
+   "VM.GPU.A10.1 (1 x NVIDIA A10 Tensor Core)",
+   "\u2014",
+   "$2.00",
+   "GPU per hour"
+  ]
+ },
+ {
+  "pn": "B95909",
+  "cells": [
+   "VM.GPU.A10.2 (2 x NVIDIA A10 Tensor Core)",
+   "\u2014",
+   "$2.00",
+   "GPU per hour"
+  ]
+ },
+ {
+  "pn": "B93030",
+  "cells": [
+   "Load Balancer Base",
+   "\u2014",
+   "$0.0113",
+   "Load balancer hour"
+  ]
+ },
+ {
+  "pn": "B93031",
+  "cells": [
+   "Load Balancer Bandwidth",
+   "\u2014",
+   "$0.0001",
+   "Mb/sec per hour"
+  ]
+ },
+ {
+  "pn": "B91961",
+  "cells": [
+   "Block Volume Storage",
+   "\u2014",
+   "$0.0255",
+   "Gigabyte storage capacity per month"
+  ]
+ },
+ {
+  "pn": "B91962",
+  "cells": [
+   "Block Volume Performance Units",
+   "\u2014",
+   "$0.0017",
+   "Performance units per gigabyte per month (10 VPUs at $0.017 for balanced performance)"
+  ]
+ },
+ {
+  "pn": "B93297",
+  "cells": [
+   "Compute \u2013 Ampere A1 \u2013 OCPU",
+   "$0.01",
+   "$0.01",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B93298",
+  "cells": [
+   "Compute \u2013 Ampere A1 \u2013 Memory",
+   "\u2014",
+   "$0.0015",
+   "Gigabyte per hour"
+  ]
+ },
+ {
+  "pn": "B109529",
+  "cells": [
+   "Compute - Standard - A2 - OCPU",
+   "$0.007",
+   "$0.014",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B109530",
+  "cells": [
+   "Compute - Standard - A2 - Memory",
+   "\u2014",
+   "$0.002",
+   "Gigabyte per hour"
+  ]
+ },
+ {
+  "pn": "B88317",
+  "cells": [
+   "Compute - Virtual Machine Standard - X7",
+   "$0.0319",
+   "$0.0638",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B92306",
+  "cells": [
+   "Compute - Standard - E3 - OCPU",
+   "$0.0125",
+   "$0.025",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B92307",
+  "cells": [
+   "Compute - Standard - E3 - Memory",
+   "\u2014",
+   "$0.0015",
+   "Gigabyte per hour"
+  ]
+ },
+ {
+  "pn": "B93113",
+  "cells": [
+   "Compute - Standard - E4 - OCPU",
+   "$0.0125",
+   "$0.025",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B93114",
+  "cells": [
+   "Compute - Standard - E4 - Memory",
+   "\u2014",
+   "$0.0015",
+   "Gigabyte per hour"
+  ]
+ },
+ {
+  "pn": "B97384",
+  "cells": [
+   "Compute - Standard - E5 - OCPU",
+   "$0.015",
+   "$0.03",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B97385",
+  "cells": [
+   "Compute - Standard - E5 - Memory",
+   "\u2014",
+   "$0.002",
+   "Gigabyte per hour"
+  ]
+ },
+ {
+  "pn": "B94176",
+  "cells": [
+   "Compute - Virtual Machine Standard - X9",
+   "$0.02",
+   "$0.04",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B94177",
+  "cells": [
+   "Compute - Virtual Machine Standard - X9 - Memory",
+   "\u2014",
+   "$0.0015",
+   "Gigabyte per hour"
+  ]
+ },
+ {
+  "pn": "B93311",
+  "cells": [
+   "Compute - Virtual Machine Optimized - X9",
+   "$0.027",
+   "$0.054",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B93312",
+  "cells": [
+   "Compute - Virtual Machine Optimized - X9 - Memory",
+   "\u2014",
+   "$0.0015",
+   "Gigabyte per hour"
+  ]
+ },
+ {
+  "pn": "B88518",
+  "cells": [
+   "VM.GPU2.1 (NVIDIA P100)",
+   "\u2014",
+   "$1.275",
+   "GPU per hour"
+  ]
+ },
+ {
+  "pn": "B89734",
+  "cells": [
+   "VM.GPU3.x (NVIDIA V100 Tensor Core - 16 GB)",
+   "\u2014",
+   "$2.95",
+   "GPU per hour"
+  ]
+ },
+ {
+  "pn": "B110519",
+  "cells": [
+   "BM.GPU.H200.8",
+   "\u2014",
+   "$10.00",
+   "GPU per hour"
+  ]
+ },
+ {
+  "pn": "B98415",
+  "cells": [
+   "BM.GPU.H100.8",
+   "\u2014",
+   "$10.00",
+   "GPU per hour"
+  ]
+ },
+ {
+  "pn": "B109479",
+  "cells": [
+   "BM.GPU.L40S-NC.4",
+   "\u2014",
+   "$3.50",
+   "GPU per hour"
+  ]
+ },
+ {
+  "pn": "B88517",
+  "cells": [
+   "BM.GPU2.2 (2 x NVIDIA P100)",
+   "\u2014",
+   "$1.275",
+   "GPU per hour"
+  ]
+ },
+ {
+  "pn": "B89734",
+  "cells": [
+   "BM.GPU3.8 (8 x NVIDIA V100 Tensor Core)",
+   "\u2014",
+   "$2.95",
+   "GPU per hour"
+  ]
+ },
+ {
+  "pn": "B92740",
+  "cells": [
+   "BM.GPU4.8 (8 x NVIDIA A100 40 GB Tensor Core)",
+   "\u2014",
+   "$3.05",
+   "GPU per hour"
+  ]
+ },
+ {
+  "pn": "B95907",
+  "cells": [
+   "BM.GPU.A100-v2.8 (8x NVIDIA A100 80GB Tensor Core)",
+   "\u2014",
+   "$4.00",
+   "GPU per hour"
+  ]
+ },
+ {
+  "pn": "B95909",
+  "cells": [
+   "BM.GPUA10.4 (4 x NVIDIA A10 Tensor Core)",
+   "\u2014",
+   "$2.00",
+   "GPU per hour"
+  ]
+ },
+ {
+  "pn": "B95909",
+  "cells": [
+   "VM.GPU.A10.1 (1 x NVIDIA A10 Tensor Core)",
+   "\u2014",
+   "$2.00",
+   "GPU per hour"
+  ]
+ },
+ {
+  "pn": "B95909",
+  "cells": [
+   "VM.GPU.A10.2 (2 x NVIDIA A10 Tensor Core)",
+   "\u2014",
+   "$2.00",
+   "GPU per hour"
+  ]
+ },
+ {
+  "pn": "B91961",
+  "cells": [
+   "Block Volume Storage",
+   "\u2014",
+   "$0.0255",
+   "Gigabyte storage capacity per month"
+  ]
+ },
+ {
+  "pn": "B91962",
+  "cells": [
+   "Block Volume Performance Units",
+   "\u2014",
+   "$0.0017",
+   "Performance units per gigabyte per month"
+  ]
+ },
+ {
+  "pn": "B112530",
+  "cells": [
+   "Compute - Standard - E6 Ax - OCPU",
+   "$0.0069",
+   "$0.0138",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B112531",
+  "cells": [
+   "Compute - Standard - E6 Ax - Memory",
+   "\u2014",
+   "$0.0108",
+   "Gigabyte per hour"
+  ]
+ },
+ {
+  "pn": "B112556",
+  "cells": [
+   "Compute - Dense IO - E6 Ax - OCPU",
+   "$0.0054",
+   "$0.0108",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B112557",
+  "cells": [
+   "Compute - Dense IO - E6 Ax - Memory",
+   "\u2014",
+   "$0.009",
+   "Gigabyte per hour"
+  ]
+ },
+ {
+  "pn": "B112558",
+  "cells": [
+   "Compute - Dense IO - E6 Ax - NVMe",
+   "\u2014",
+   "$0.1433",
+   "NVMe terabyte per hour"
+  ]
+ },
+ {
+  "pn": "B111129",
+  "cells": [
+   "Compute - Standard - E6 - OCPU",
+   "$0.015",
+   "$0.03",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B111130",
+  "cells": [
+   "Compute - Standard - E6 - Memory",
+   "\u2014",
+   "$0.002",
+   "Gigabyte per hour"
+  ]
+ },
+ {
+  "pn": "B98202",
+  "cells": [
+   "Compute - Dense I/O - E5 OCPU",
+   "$0.015",
+   "$0.03",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B98203",
+  "cells": [
+   "Compute - Dense I/O - E5 Memory",
+   "\u2014",
+   "$0.002",
+   "Gigabyte per hour"
+  ]
+ },
+ {
+  "pn": "B98204",
+  "cells": [
+   "Compute - Dense I/O - E5 NVMe",
+   "\u2014",
+   "$0.0612",
+   "NVMe terabyte per hour"
+  ]
+ },
+ {
+  "pn": "B97384",
+  "cells": [
+   "Compute - Standard - E5 - OCPU",
+   "$0.015",
+   "$0.03",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B97385",
+  "cells": [
+   "Compute - Standard - E5 - Memory",
+   "\u2014",
+   "$0.002",
+   "Gigabyte per hour"
+  ]
+ },
+ {
+  "pn": "B96531",
+  "cells": [
+   "Compute - HPC - E5*",
+   "$0.022",
+   "$0.044",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B93113",
+  "cells": [
+   "Compute - Standard - E4 - OCPU",
+   "$0.0125",
+   "$0.025",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B93114",
+  "cells": [
+   "Compute - Standard - E4 - Memory",
+   "\u2014",
+   "$0.0015",
+   "Gigabyte per hour"
+  ]
+ },
+ {
+  "pn": "B93121",
+  "cells": [
+   "Compute - Dense I/O - E4 - OCPU",
+   "$0.0125",
+   "$0.025",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B93122",
+  "cells": [
+   "Compute - Dense I/O - E4 - Memory",
+   "\u2014",
+   "$0.0015",
+   "Gigabyte memory per hour"
+  ]
+ },
+ {
+  "pn": "B93123",
+  "cells": [
+   "Compute - Dense I/O - E4 - NVMe",
+   "\u2014",
+   "$0.0612",
+   "NVMe terabyte per hour"
+  ]
+ },
+ {
+  "pn": "B92306",
+  "cells": [
+   "Compute - Standard - E3 - OCPU",
+   "$0.0125",
+   "$0.025",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B92307",
+  "cells": [
+   "Compute - Standard - E3 - Memory",
+   "\u2014",
+   "$0.0015",
+   "Gigabyte per hour"
+  ]
+ },
+ {
+  "pn": "B112532",
+  "cells": [
+   "Compute - Standard - A4 Ax - OCPU**",
+   "$0.0095",
+   "$0.019",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B112533",
+  "cells": [
+   "Compute - Standard - A4 Ax - Memory",
+   "\u2014",
+   "$0.0084",
+   "Gigabyte per hour"
+  ]
+ },
+ {
+  "pn": "B112145",
+  "cells": [
+   "Compute - Standard - A4 - OCPU**",
+   "$0.0069",
+   "$0.0138",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B112146",
+  "cells": [
+   "Compute - Standard - A4 - Memory",
+   "\u2014",
+   "$0.0027",
+   "Gigabyte per hour"
+  ]
+ },
+ {
+  "pn": "B93297",
+  "cells": [
+   "Compute \u2013 Ampere A1 \u2013 OCPU",
+   "$0.01",
+   "$0.01",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B93298",
+  "cells": [
+   "Compute \u2013 Ampere A1 \u2013 Memory",
+   "\u2014",
+   "$0.0015",
+   "Gigabyte per hour"
+  ]
+ },
+ {
+  "pn": "B112141",
+  "cells": [
+   "Compute - Standard - X12 Ax - OCPU",
+   "$0.00595",
+   "$0.0119",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B112142",
+  "cells": [
+   "Compute - Standard - X12 Ax - Memory",
+   "\u2014",
+   "$0.0114",
+   "Gigabyte per hour"
+  ]
+ },
+ {
+  "pn": "B94176",
+  "cells": [
+   "Compute - Standard - X9 - OCPU",
+   "$0.02",
+   "$0.04",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B94177",
+  "cells": [
+   "Compute - Standard - X9 - Memory",
+   "\u2014",
+   "$0.0015",
+   "Gigabyte per hour"
+  ]
+ },
+ {
+  "pn": "B93311",
+  "cells": [
+   "Compute - Optimized - X9 - OCPU",
+   "$0.027",
+   "$0.054",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B93312",
+  "cells": [
+   "Compute - Optimized - X9 - Memory",
+   "\u2014",
+   "$0.0015",
+   "Gigabyte per hour"
+  ]
+ },
+ {
+  "pn": "B88513",
+  "cells": [
+   "Compute - Bare Metal Standard - X7",
+   "$0.0319",
+   "$0.0638",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B88515",
+  "cells": [
+   "Compute - Bare Metal Dense I/O - X7",
+   "$0.06375",
+   "$0.1275",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B90398",
+  "cells": [
+   "Compute - Bare Metal Standard - HPC - X7",
+   "$0.0375",
+   "$0.075",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B112613",
+  "cells": [
+   "BM.GPU.RTXPro.8",
+   "8 x NVIDIA RTX PRO 6000 96GB",
+   "Blackwell",
+   "8 x 400 Gb/sec RDMA",
+   "$4.50"
+  ]
+ },
+ {
+  "pn": "B110978",
+  "cells": [
+   "BM.GPU.B200.8",
+   "8x Nvidia B200 180GB",
+   "Blackwell",
+   "8x400 Gb/sec",
+   "$14.00"
+  ]
+ },
+ {
+  "pn": "B110979",
+  "cells": [
+   "BM.GPU.GB200.41",
+   "4x Nvidia B200 189GB (NVL72)",
+   "Blackwell",
+   "4x400 Gb/sec InfiniBand",
+   "$16.00"
+  ]
+ },
+ {
+  "pn": "B112140",
+  "cells": [
+   "BM.GPU.GB300.42",
+   "4x Nvidia B300 279GB (NVL72)",
+   "Blackwell",
+   "4x800 Gb/sec",
+   "$18.00"
+  ]
+ },
+ {
+  "pn": "B112237",
+  "cells": [
+   "BM.GPU.B300.8",
+   "8x Nvidia B300 263GB",
+   "Blackwell",
+   "8x800 Gb/sec",
+   "$15.00"
+  ]
+ },
+ {
+  "pn": "B110519",
+  "cells": [
+   "BM.GPU.H200.8",
+   "8x Nvidia H200 141GB Tensor Core",
+   "Hopper",
+   "8x1x400 Gb/sec RDMA",
+   "$10.00"
+  ]
+ },
+ {
+  "pn": "B98415",
+  "cells": [
+   "BM.GPU.H100.8",
+   "8x NVIDIA H100 80GB Tensor Core",
+   "Hopper",
+   "8x2x200 Gb/sec RDMA",
+   "$10.00"
+  ]
+ },
+ {
+  "pn": "B109485",
+  "cells": [
+   "BM.GPU.MI300X.8",
+   "8x AMD MI300X 192 GB Matrix Core",
+   "CDNA 3",
+   "8x1x400 Gb/sec RDMA",
+   "$6.00"
+  ]
+ },
+ {
+  "pn": "B111758",
+  "cells": [
+   "BM.GPU.MI355X.8",
+   "8x AMD MI355X 288GB Matrix Core",
+   "CDNA 4",
+   "8x1x400 Gb/sec RDMA",
+   "$8.60"
+  ]
+ },
+ {
+  "pn": "B95907",
+  "cells": [
+   "BM.GPU.A100-v2.8",
+   "8x NVIDIA A100 80GB Tensor Core",
+   "Ampere",
+   "8x2x100 Gb/sec RDMA",
+   "$4.00"
+  ]
+ },
+ {
+  "pn": "B109479",
+  "cells": [
+   "BM.GPU.L40S.4",
+   "4x NVIDIA L40S 48GB",
+   "Ada Lovelace",
+   "2x1x400 Gb/sec RDMA",
+   "$3.50"
+  ]
+ },
+ {
+  "pn": "B92740",
+  "cells": [
+   "BM.GPU4.8",
+   "8x NVIDIA A100 40GB Tensor Core",
+   "Ampere",
+   "8x2x100 Gb/sec RDMA",
+   "$3.05"
+  ]
+ },
+ {
+  "pn": "B95909",
+  "cells": [
+   "VM.GPU.A10.1 (new)",
+   "1x NVIDIA A10 Tensor Core",
+   "Ampere",
+   "24 Gb/sec",
+   "$2.00"
+  ]
+ },
+ {
+  "pn": "B95909",
+  "cells": [
+   "VM.GPU.A10.2 (new)",
+   "2x NVIDIA A10 Tensor Core",
+   "Ampere",
+   "48 Gb/sec",
+   "$2.00"
+  ]
+ },
+ {
+  "pn": "B95909",
+  "cells": [
+   "BM.GPU.A10.4",
+   "4x NVIDIA A10 Tensor Core",
+   "Ampere",
+   "2x50 Gb/sec",
+   "$2.00"
+  ]
+ },
+ {
+  "pn": "B89734",
+  "cells": [
+   "VM.GPU3.1",
+   "1x NVIDIA V100 Tensor Core",
+   "Volta",
+   "4 Gb/sec",
+   "$2.95"
+  ]
+ },
+ {
+  "pn": "B89734",
+  "cells": [
+   "VM.GPU3.2",
+   "2x NVIDIA V100 Tensor Core",
+   "Volta",
+   "8 Gb/sec",
+   "$2.95"
+  ]
+ },
+ {
+  "pn": "B89734",
+  "cells": [
+   "VM.GPU3.4",
+   "4x NVIDIA V100 Tensor Core",
+   "Volta",
+   "25 Gb/sec",
+   "$2.95"
+  ]
+ },
+ {
+  "pn": "B89734",
+  "cells": [
+   "BM.GPU3.8",
+   "8x NVIDIA V100 Tensor Core",
+   "Volta",
+   "2x25 Gb/sec",
+   "$2.95"
+  ]
+ },
+ {
+  "pn": "B88518",
+  "cells": [
+   "VM.GPU2.1",
+   "1x NVIDIA P100",
+   "Pascal",
+   "8 Gb/sec",
+   "$1.275"
+  ]
+ },
+ {
+  "pn": "B88517",
+  "cells": [
+   "BM.GPU2.2",
+   "2x NVIDIA P100",
+   "Pascal",
+   "2x25 Gb/sec",
+   "$1.275"
+  ]
+ },
+ {
+  "pn": "B88317",
+  "cells": [
+   "Compute - Virtual Machine Standard - X5",
+   "$0.0319",
+   "$0.0638",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B88315",
+  "cells": [
+   "Compute - Bare Metal Standard - X5",
+   "$0.0319",
+   "$0.0638",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B90425",
+  "cells": [
+   "Compute - Standard - E2",
+   "$0.015",
+   "$0.03",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B88518",
+  "cells": [
+   "VM.GPU2.1",
+   "1x NVIDIA P100",
+   "Pascal",
+   "N/A",
+   "16 GB",
+   "12",
+   "78 GB",
+   "25 Gb/sec",
+   "$1.275"
+  ]
+ },
+ {
+  "pn": "B88517",
+  "cells": [
+   "BM.GPU2.2",
+   "2x NVIDIA P100",
+   "Pascal",
+   "N/A",
+   "32 GB",
+   "28",
+   "192 GB",
+   "2x25 Gb/sec",
+   "$1.275"
+  ]
+ },
+ {
+  "pn": "B88318",
+  "cells": [
+   "Compute - Windows OS** Server 2022 Standard and Datacenter Server 2019 Standard and Datacenter Server 2016 Standard and Datacenter Server 2012 R2 Standard and Datacenter",
+   "$0.046",
+   "$0.092",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B112530",
+  "cells": [
+   "Compute - Standard - E6 Ax - OCPU",
+   "$0.0069",
+   "$0.0138",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B112531",
+  "cells": [
+   "Compute - Standard - E6 Ax - Memory",
+   "\u2014",
+   "$0.0108",
+   "Gigabyte per hour"
+  ]
+ },
+ {
+  "pn": "B112556",
+  "cells": [
+   "Compute - Dense IO - E6 Ax - OCPU",
+   "$0.0054",
+   "$0.0108",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B112557",
+  "cells": [
+   "Compute - Dense IO - E6 Ax - Memory",
+   "\u2014",
+   "$0.009",
+   "Gigabyte per hour"
+  ]
+ },
+ {
+  "pn": "B112558",
+  "cells": [
+   "Compute - Dense IO - E6 Ax - NVMe",
+   "\u2014",
+   "$0.1433",
+   "NVMe terabyte per hour"
+  ]
+ },
+ {
+  "pn": "B111129",
+  "cells": [
+   "Compute - Standard - E6 - OCPU",
+   "$0.015",
+   "$0.03",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B111130",
+  "cells": [
+   "Compute - Standard - E6 - Memory",
+   "\u2014",
+   "$0.002",
+   "Gigabyte per hour"
+  ]
+ },
+ {
+  "pn": "B98202",
+  "cells": [
+   "Compute - Dense I/O - E5 OCPU",
+   "$0.015",
+   "$0.03",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B98203",
+  "cells": [
+   "Compute - Dense I/O - E5 Memory",
+   "\u2014",
+   "$0.002",
+   "Gigabyte per hour"
+  ]
+ },
+ {
+  "pn": "B98204",
+  "cells": [
+   "Compute - Dense I/O - E5 NVMe",
+   "\u2014",
+   "$0.0612",
+   "NVMe terabyte per hour"
+  ]
+ },
+ {
+  "pn": "B97384",
+  "cells": [
+   "Compute - Standard - E5 - OCPU",
+   "$0.015",
+   "$0.03",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B97385",
+  "cells": [
+   "Compute - Standard - E5 - Memory",
+   "\u2014",
+   "$0.002",
+   "Gigabyte per hour"
+  ]
+ },
+ {
+  "pn": "B93113",
+  "cells": [
+   "Compute - Standard - E4 - OCPU",
+   "$0.0125",
+   "$0.025",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B93114",
+  "cells": [
+   "Compute - Standard - E4 - Memory",
+   "\u2014",
+   "$0.0015",
+   "Gigabyte per hour"
+  ]
+ },
+ {
+  "pn": "B92306",
+  "cells": [
+   "Compute - Standard - E3 - OCPU",
+   "$0.0125",
+   "$0.025",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B92307",
+  "cells": [
+   "Compute - Standard - E3 - Memory",
+   "\u2014",
+   "$0.0015",
+   "Gigabyte per hour"
+  ]
+ },
+ {
+  "pn": "B112532",
+  "cells": [
+   "Compute - Standard - A4 Ax - OCPU**",
+   "$0.0095",
+   "$0.019",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B112533",
+  "cells": [
+   "Compute - Standard - A4 Ax - Memory",
+   "\u2014",
+   "$0.0084",
+   "Gigabyte per hour"
+  ]
+ },
+ {
+  "pn": "B112145",
+  "cells": [
+   "Compute - Standard - A4 - OCPU",
+   "$0.0069",
+   "$0.0138",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B112146",
+  "cells": [
+   "Compute - Standard - A4 - Memory",
+   "\u2014",
+   "$0.0027",
+   "Gigabyte per hour"
+  ]
+ },
+ {
+  "pn": "B109529",
+  "cells": [
+   "Compute - Standard - A2** - OCPU",
+   "$0.007",
+   "$0.014",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B109530",
+  "cells": [
+   "Compute - Standard - A2** - Memory",
+   "\u2014",
+   "$0.002",
+   "Gigabyte per hour"
+  ]
+ },
+ {
+  "pn": "B93297",
+  "cells": [
+   "Compute \u2013 Ampere A1* \u2013 OCPU",
+   "$0.01",
+   "$0.01",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B93298",
+  "cells": [
+   "Compute \u2013 Ampere A1* \u2013 Memory",
+   "\u2014",
+   "$0.0015",
+   "Gigabyte per hour"
+  ]
+ },
+ {
+  "pn": "B112141",
+  "cells": [
+   "Compute - Standard - X12 Ax - OCPU",
+   "$0.00595",
+   "$0.0119",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B112142",
+  "cells": [
+   "Compute - Standard - X12 Ax - Memory",
+   "\u2014",
+   "$0.0114",
+   "Gigabyte per hour"
+  ]
+ },
+ {
+  "pn": "B94176",
+  "cells": [
+   "Compute - Standard - X9 - OCPU",
+   "$0.02",
+   "$0.04",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B94177",
+  "cells": [
+   "Compute - Standard - X9 - Memory",
+   "\u2014",
+   "$0.0015",
+   "Gigabyte per hour"
+  ]
+ },
+ {
+  "pn": "B93311",
+  "cells": [
+   "Compute - Virtual Machine Optimized - X9 - OCPU",
+   "$0.027",
+   "$0.054",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B93312",
+  "cells": [
+   "Compute - Virtual Machine Optimized - X9 - Memory",
+   "\u2014",
+   "$0.0015",
+   "Gigabyte per hour"
+  ]
+ },
+ {
+  "pn": "B88514",
+  "cells": [
+   "Compute - Virtual Machine Standard - X7",
+   "$0.0319",
+   "$0.0638",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B88516",
+  "cells": [
+   "Compute - Virtual Machine Dense I/O - X7",
+   "$0.06375",
+   "$0.1275",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B93297",
+  "cells": [
+   "Compute \u2013 Ampere A1 \u2013 OCPU",
+   "$0.01",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B93298",
+  "cells": [
+   "Compute \u2013 Ampere A1 \u2013 Memory",
+   "$0.0015",
+   "Gigabyte per hour"
+  ]
+ },
+ {
+  "pn": "B93113",
+  "cells": [
+   "Compute - Standard - E4 - OCPU",
+   "$0.025",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B93114",
+  "cells": [
+   "Compute - Standard - E4 - Memory",
+   "$0.0015",
+   "Gigabyte per hour"
+  ]
+ },
+ {
+  "pn": "B92306",
+  "cells": [
+   "Compute - Standard - E3 - OCPU",
+   "$0.025",
+   "OCPU per hour"
+  ]
+ },
+ {
+  "pn": "B92307",
+  "cells": [
+   "Compute - Standard - E3 - Memory",
+   "$0.0015",
+   "Gigabyte per hour"
+  ]
+ },
+ {
+  "pn": "B88325",
+  "cells": [
+   "FastConnect 1 Gb/sec",
+   "$0.2125",
+   "No separate charges for inbound or outbound data transfer on private VCs. For public VCs, please see the pricing in the \u201cNetworking\u201d section."
+  ]
+ },
+ {
+  "pn": "B88326",
+  "cells": [
+   "FastConnect 10 Gb/sec",
+   "$1.275",
+   "No separate charges for inbound or outbound data transfer on private VCs. For public VCs, please see the pricing in the \u201cNetworking\u201d section."
+  ]
+ },
+ {
+  "pn": "B93126",
+  "cells": [
+   "FastConnect 100 Gb/sec",
+   "$10.75",
+   "No separate charges for inbound or outbound data transfer on private VCs. For public VCs, please see the pricing in the \u201cNetworking\u201d section."
+  ]
+ },
+ {
+  "pn": "B107975",
+  "cells": [
+   "FastConnect 400 Gb/sec",
+   "$20.00",
+   "No separate charges for inbound or outbound data transfer on private VCs. For public VCs, please see the pricing in the \u201cNetworking\u201d section."
+  ]
+ },
+ {
+  "pn": "B91961",
+  "cells": [
+   "Block Volume Storage*",
+   "\u2014",
+   "$0.0255",
+   "Gigabyte storage capacity per month"
+  ]
+ },
+ {
+  "pn": "B91962",
+  "cells": [
+   "Block Volume Performance Units**",
+   "\u2014",
+   "$0.0017",
+   "Performance units per gigabyte per month 0 VPUs at $0 for lower cost 10 VPUs at $0.017 for balanced 20 VPUs at $0.034 for higher performance 30 VPUs at $0.051 for UHP (VPU/GB=30) 40 VPUs at $0.068 for UHP (VPU/GB=40) 50 VPUs at $0.085 for UHP (VPU/GB=50) 60 VPUs at $0.102 for UHP (VPU/GB=60) 70 VPUs at $0.119 for UHP (VPU/GB=70) 80 VPUs at $0.136 for UHP (VPU/GB=80) 90 VPUs at $0.153 for UHP (VPU/GB=90) 100 VPUs at $0.170 for UHP (VPU/GB=100) 110 VPUs at $0.187 for UHP (VPU/GB=110) 120 VPUs at $0.204 for UHP (VPU/GB=120)"
+  ]
+ },
+ {
+  "pn": "B93000",
+  "cells": [
+   "Object Storage - Infrequent Access",
+   "\u2014",
+   "$0.01",
+   "Gigabyte storage capacity per month"
+  ]
+ },
+ {
+  "pn": "B93001",
+  "cells": [
+   "Object Storage - Infrequent Access - Retrieval",
+   "\u2014",
+   "$0.01",
+   "Gigabyte storage retrieved per month"
+  ]
+ },
+ {
+  "pn": "B91628",
+  "cells": [
+   "Object Storage - Standard",
+   "\u2014",
+   "$0.0255",
+   "Gigabyte storage capacity per month"
+  ]
+ },
+ {
+  "pn": "B91627",
+  "cells": [
+   "Object Storage - Requests",
+   "\u2014",
+   "$0.0034",
+   "10,000 requests per month"
+  ]
+ },
+ {
+  "pn": "B91633",
+  "cells": [
+   "Archive Storage",
+   "\u2014",
+   "$0.0026",
+   "Gigabyte storage capacity per month"
+  ]
+ }
+]

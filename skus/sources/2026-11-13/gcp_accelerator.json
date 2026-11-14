@@ -1,0 +1,113 @@
+{
+ "regionHints": [
+  "Regional standard provisioned space",
+  "Regional SSD provisioned space",
+  "Regional balanced provisioned space"
+ ],
+ "tables": [
+  {
+   "i": 0,
+   "header": [
+    "Machine type",
+    "GPU",
+    "Components",
+    "Price (USD) * info",
+    "DWS Flex-start price (USD)",
+    "DWS Calendar Mode price (USD)",
+    "Current Spot pricing (USD)",
+    "Compute Resource CUDs - 1 Year (USD)",
+    "Compute Resource CUDs - 3 Year (USD)"
+   ],
+   "sel": [
+    [
+     "a4-highgpu-8g",
+     "Nvidia B200",
+     "GPUs: 8 vCPUs: 224 Memory: 3,968GB SSD: 12,000 GiB",
+     "N/A",
+     "$64.4400 / 1 hour",
+     "$90.22 / 1 hour",
+     "$43.5968 / 1 hour",
+     "$88.9272 / 1 hour",
+     "$56.7072 / 1 hour"
+    ],
+    [
+     "a3-ultragpu-8g",
+     "Nvidia H200",
+     "GPUs: 8 vCPUs: 224 Memory: 2,952GB SSD: 12,000 GiB",
+     "$84.806908493 / 1 hour",
+     "$42.4000/ 1 hour",
+     "$59.3600 / 1 hour",
+     "$50.871161425 / 1 hour",
+     "$58.471933151 / 1 hour",
+     "$37.208420822 / 1 hour"
+    ],
+    [
+     "a3-megagpu-8g",
+     "Nvidia H100",
+     "GPUs: 8 vCPUs: 208 Memory: 1,872GB SSD: 6,000 GiB",
+     "$93.400712807 / 1 hour",
+     "$40.3200 / 1 hour",
+     "$44.0000 / 1 hour",
+     "$50.232828712 / 1 hour",
+     "$64.206558727 / 1 hour",
+     "$40.650103355 / 1 hour"
+    ],
+    [
+     "a3-highgpu-8g",
+     "Nvidia H100",
+     "GPUs: 8 vCPUs: 208 Memory: 1,871GB SSD: 6,000 GiB",
+     "$88.490000119 / 1 hour",
+     "$38.3200/ 1 hour",
+     "$41.6000 / 1 hour",
+     "$52.700460712 / 1 hour",
+     "$61.383674231 / 1 hour",
+     "$38.864383195 / 1 hour"
+    ]
+   ]
+  },
+  {
+   "i": 1,
+   "header": [
+    "Machine type",
+    "GPU",
+    "Components",
+    "Price (USD) * info",
+    "Compute Flexible CUD - 1 Year* (USD) info",
+    "Compute Flexible CUD - 3 Year* (USD) info",
+    "DWS Flex-start price (USD)",
+    "DWS Calendar Mode price (USD)",
+    "Current Spot pricing (USD)",
+    "Compute Resource CUDs - 1 Year (USD)",
+    "Compute Resource CUDs - 3 Year (USD)"
+   ],
+   "sel": [
+    [
+     "g4-standard-384",
+     "NVIDIA RTX PRO 6000",
+     "GPUs: 8 vCPUs: 384 Memory: 1440GiB",
+     "$35.99944 / 1 hour",
+     "$30.2395296 / 1 hour",
+     "$20.8796752 / 1 hour",
+     "$18.0000 / 1 hour",
+     "N/A",
+     "$13.74224 / 1 hour",
+     "$24.84 / 1 hour",
+     "$15.8356 / 1 hour"
+    ],
+    [
+     "g2-standard-48",
+     "NVIDIA L4",
+     "GPUs: 4 vCPUs: 48 Memory: 192GiB",
+     "$4.001665392 / 1 hour",
+     "$3.161315508 / 1 hour",
+     "$2.280949268 / 1 hour",
+     "N/A",
+     "N/A",
+     "$2.394592 / 1 hour",
+     "$2.521049212 / 1 hour",
+     "$1.800749424 / 1 hour"
+    ]
+   ]
+  }
+ ]
+}

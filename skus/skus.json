@@ -1,0 +1,2338 @@
+{
+ "updated": "2026-11-13",
+ "sources": [
+  {
+   "name": "AWS EC2 Capacity Blocks pricing page",
+   "url": "https://aws.amazon.com/ec2/capacityblocks/pricing"
+  },
+  {
+   "name": "AWS Price List, us-east-1, Linux on demand",
+   "url": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonEC2/20261114012926/us-east-1/index.json"
+  },
+  {
+   "name": "Azure Retail Prices API, Linux pay as you go",
+   "url": "https://prices.azure.com/api/retail/prices"
+  },
+  {
+   "name": "CoreWeave pricing page",
+   "url": "https://coreweave.com/pricing"
+  },
+  {
+   "name": "Crusoe pricing page",
+   "url": "https://www.crusoe.ai/cloud/pricing"
+  },
+  {
+   "name": "Google Cloud TPU pricing page",
+   "url": "https://cloud.google.com/tpu/pricing"
+  },
+  {
+   "name": "Google Compute Engine pricing page",
+   "url": "https://cloud.google.com/products/compute/pricing/accelerator-optimized"
+  },
+  {
+   "name": "Google Compute Engine pricing page",
+   "url": "https://cloud.google.com/products/compute/pricing/general-purpose"
+  },
+  {
+   "name": "Lambda pricing page",
+   "url": "https://lambda.com/pricing"
+  },
+  {
+   "name": "Modal pricing page",
+   "url": "https://modal.com/pricing"
+  },
+  {
+   "name": "Nebius pricing page",
+   "url": "https://nebius.com/prices"
+  },
+  {
+   "name": "Oracle Cloud price list",
+   "url": "https://www.oracle.com/cloud/price-list/"
+  },
+  {
+   "name": "Replicate pricing page",
+   "url": "https://replicate.com/pricing"
+  },
+  {
+   "name": "RunPod pricing page",
+   "url": "https://www.runpod.io/pricing"
+  },
+  {
+   "name": "Together AI GPU clusters page",
+   "url": "https://www.together.ai/gpu-clusters"
+  }
+ ],
+ "count": 84,
+ "providers": [
+  {
+   "id": "aws",
+   "name": "AWS",
+   "provider": "Amazon Web Services",
+   "category": "hyperscaler"
+  },
+  {
+   "id": "azure",
+   "name": "Azure",
+   "provider": "Microsoft Azure",
+   "category": "hyperscaler"
+  },
+  {
+   "id": "gcp",
+   "name": "Google Cloud",
+   "provider": "Google Cloud",
+   "category": "hyperscaler"
+  },
+  {
+   "id": "oci",
+   "name": "Oracle Cloud",
+   "provider": "Oracle Cloud",
+   "category": "hyperscaler"
+  },
+  {
+   "id": "coreweave",
+   "name": "CoreWeave",
+   "provider": "CoreWeave",
+   "category": "gpu-cloud"
+  },
+  {
+   "id": "lambda",
+   "name": "Lambda",
+   "provider": "Lambda",
+   "category": "gpu-cloud"
+  },
+  {
+   "id": "nebius",
+   "name": "Nebius",
+   "provider": "Nebius",
+   "category": "gpu-cloud"
+  },
+  {
+   "id": "crusoe",
+   "name": "Crusoe",
+   "provider": "Crusoe",
+   "category": "gpu-cloud"
+  },
+  {
+   "id": "together",
+   "name": "Together AI",
+   "provider": "Together AI",
+   "category": "gpu-cloud"
+  },
+  {
+   "id": "runpod",
+   "name": "RunPod",
+   "provider": "RunPod",
+   "category": "serverless-gpu"
+  },
+  {
+   "id": "modal",
+   "name": "Modal",
+   "provider": "Modal",
+   "category": "serverless-gpu"
+  },
+  {
+   "id": "replicate",
+   "name": "Replicate",
+   "provider": "Replicate",
+   "category": "serverless-gpu"
+  }
+ ],
+ "classes": [
+  {
+   "id": "gp-x86",
+   "label": "General purpose, x86",
+   "group": "cpu",
+   "unit": "vcpu_hour",
+   "blurb": "The default server: about 4 GiB of memory per vCPU."
+  },
+  {
+   "id": "gp-arm",
+   "label": "General purpose, Arm",
+   "group": "cpu",
+   "unit": "vcpu_hour",
+   "blurb": "The same shape on each provider’s Arm processors."
+  },
+  {
+   "id": "mem",
+   "label": "Memory optimized",
+   "group": "cpu",
+   "unit": "vcpu_hour",
+   "blurb": "About 8 GiB per vCPU, for databases and caches."
+  },
+  {
+   "id": "h100",
+   "label": "NVIDIA H100",
+   "group": "gpu",
+   "unit": "gpu_hour",
+   "blurb": "The 80 GB Hopper card."
+  },
+  {
+   "id": "h200",
+   "label": "NVIDIA H200",
+   "group": "gpu",
+   "unit": "gpu_hour",
+   "blurb": "Hopper with 141 GB of memory."
+  },
+  {
+   "id": "b200",
+   "label": "NVIDIA B200",
+   "group": "gpu",
+   "unit": "gpu_hour",
+   "blurb": "Blackwell in the eight-GPU HGX server."
+  },
+  {
+   "id": "gb200",
+   "label": "NVIDIA GB200",
+   "group": "gpu",
+   "unit": "gpu_hour",
+   "blurb": "Blackwell in the NVL72 rack."
+  },
+  {
+   "id": "a100",
+   "label": "NVIDIA A100 80GB",
+   "group": "gpu",
+   "unit": "gpu_hour",
+   "blurb": "The generation before Hopper, still widely rented."
+  },
+  {
+   "id": "l40s",
+   "label": "NVIDIA L40S",
+   "group": "gpu",
+   "unit": "gpu_hour",
+   "blurb": "The 48 GB card."
+  },
+  {
+   "id": "custom",
+   "label": "Other accelerators",
+   "group": "chip",
+   "unit": "chip_hour",
+   "blurb": "Chips the provider designed itself, and AMD’s. The chips differ, so these prices are not comparable with each other."
+  }
+ ],
+ "skus": [
+  {
+   "class": "gp-x86",
+   "provider": "aws",
+   "sku": "m8i.48xlarge",
+   "unit_price_usd": 0.0529,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": 10.1606,
+   "units_per_machine": 192,
+   "spec": "192 vCPU · 768 GiB",
+   "note": "",
+   "routes": [],
+   "source": "AWS Price List, us-east-1, Linux on demand",
+   "source_url": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonEC2/20261114012926/us-east-1/index.json",
+   "page_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "gp-x86",
+   "provider": "aws",
+   "sku": "m7i.48xlarge",
+   "unit_price_usd": 0.0504,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": 9.6768,
+   "units_per_machine": 192,
+   "spec": "192 vCPU · 768 GiB",
+   "note": "",
+   "routes": [],
+   "source": "AWS Price List, us-east-1, Linux on demand",
+   "source_url": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonEC2/20261114012926/us-east-1/index.json",
+   "page_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "gp-x86",
+   "provider": "aws",
+   "sku": "m8a.48xlarge",
+   "unit_price_usd": 0.0609,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": 11.6851,
+   "units_per_machine": 192,
+   "spec": "192 vCPU · 768 GiB",
+   "note": "",
+   "routes": [],
+   "source": "AWS Price List, us-east-1, Linux on demand",
+   "source_url": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonEC2/20261114012926/us-east-1/index.json",
+   "page_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "gp-x86",
+   "provider": "azure",
+   "sku": "Standard_D192s_v6",
+   "unit_price_usd": 0.0504,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": 9.677,
+   "units_per_machine": 192,
+   "spec": "192 vCPU · 768 GiB",
+   "note": "",
+   "routes": [],
+   "source": "Azure Retail Prices API, Linux pay as you go",
+   "source_url": "https://prices.azure.com/api/retail/prices",
+   "page_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "gp-x86",
+   "provider": "azure",
+   "sku": "Standard_D96s_v5",
+   "unit_price_usd": 0.048,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": 4.608,
+   "units_per_machine": 96,
+   "spec": "96 vCPU · 384 GiB",
+   "note": "",
+   "routes": [],
+   "source": "Azure Retail Prices API, Linux pay as you go",
+   "source_url": "https://prices.azure.com/api/retail/prices",
+   "page_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "gp-x86",
+   "provider": "gcp",
+   "sku": "n4-standard-80",
+   "unit_price_usd": 0.0454,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": 3.628,
+   "units_per_machine": 80,
+   "spec": "80 vCPU · 320 GiB",
+   "note": "",
+   "routes": [
+    {
+     "label": "3-year commitment",
+     "unit_price_usd": 0.0204
+    }
+   ],
+   "source": "Google Compute Engine pricing page",
+   "source_url": "https://cloud.google.com/products/compute/pricing/general-purpose",
+   "page_url": "https://cloud.google.com/products/compute/pricing/general-purpose",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "gp-x86",
+   "provider": "gcp",
+   "sku": "c4-standard-192",
+   "unit_price_usd": 0.0494,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": 9.4882,
+   "units_per_machine": 192,
+   "spec": "192 vCPU · 720 GiB",
+   "note": "",
+   "routes": [
+    {
+     "label": "3-year commitment",
+     "unit_price_usd": 0.0222
+    }
+   ],
+   "source": "Google Compute Engine pricing page",
+   "source_url": "https://cloud.google.com/products/compute/pricing/general-purpose",
+   "page_url": "https://cloud.google.com/products/compute/pricing/general-purpose",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "gp-x86",
+   "provider": "oci",
+   "sku": "VM.Standard.E5.Flex",
+   "unit_price_usd": 0.023,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": null,
+   "units_per_machine": null,
+   "spec": "Flexible: you choose cores and memory",
+   "note": "Billed as $0.03 per OCPU-hour plus $0.002 per GiB-hour; shown at 4 GiB per vCPU using Oracle's own per-vCPU comparison price.",
+   "routes": [],
+   "source": "Oracle Cloud price list",
+   "source_url": "https://www.oracle.com/cloud/price-list/",
+   "page_url": "https://www.oracle.com/cloud/price-list/",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "gp-x86",
+   "provider": "oci",
+   "sku": "VM.Standard.E4.Flex",
+   "unit_price_usd": 0.0185,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": null,
+   "units_per_machine": null,
+   "spec": "Flexible: you choose cores and memory",
+   "note": "Billed as $0.025 per OCPU-hour plus $0.0015 per GiB-hour; shown at 4 GiB per vCPU using Oracle's own per-vCPU comparison price.",
+   "routes": [],
+   "source": "Oracle Cloud price list",
+   "source_url": "https://www.oracle.com/cloud/price-list/",
+   "page_url": "https://www.oracle.com/cloud/price-list/",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "gp-arm",
+   "provider": "aws",
+   "sku": "m8g.48xlarge",
+   "unit_price_usd": 0.0449,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": 8.617,
+   "units_per_machine": 192,
+   "spec": "192 vCPU · 768 GiB",
+   "note": "",
+   "routes": [],
+   "source": "AWS Price List, us-east-1, Linux on demand",
+   "source_url": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonEC2/20261114012926/us-east-1/index.json",
+   "page_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "gp-arm",
+   "provider": "aws",
+   "sku": "m7g.16xlarge",
+   "unit_price_usd": 0.0408,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": 2.6112,
+   "units_per_machine": 64,
+   "spec": "64 vCPU · 256 GiB",
+   "note": "",
+   "routes": [],
+   "source": "AWS Price List, us-east-1, Linux on demand",
+   "source_url": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonEC2/20261114012926/us-east-1/index.json",
+   "page_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "gp-arm",
+   "provider": "azure",
+   "sku": "Standard_D96ps_v6",
+   "unit_price_usd": 0.0351,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": 3.37,
+   "units_per_machine": 96,
+   "spec": "96 vCPU · 384 GiB",
+   "note": "",
+   "routes": [],
+   "source": "Azure Retail Prices API, Linux pay as you go",
+   "source_url": "https://prices.azure.com/api/retail/prices",
+   "page_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "gp-arm",
+   "provider": "gcp",
+   "sku": "c4a-standard-72",
+   "unit_price_usd": 0.0449,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": 3.2328,
+   "units_per_machine": 72,
+   "spec": "72 vCPU · 288 GiB",
+   "note": "",
+   "routes": [
+    {
+     "label": "3-year commitment",
+     "unit_price_usd": 0.0202
+    }
+   ],
+   "source": "Google Compute Engine pricing page",
+   "source_url": "https://cloud.google.com/products/compute/pricing/general-purpose",
+   "page_url": "https://cloud.google.com/products/compute/pricing/general-purpose",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "gp-arm",
+   "provider": "oci",
+   "sku": "VM.Standard.A4.Flex",
+   "unit_price_usd": 0.0177,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": null,
+   "units_per_machine": null,
+   "spec": "Flexible: you choose cores and memory",
+   "note": "Billed as $0.0138 per OCPU-hour plus $0.0027 per GiB-hour; shown at 4 GiB per vCPU using Oracle's own per-vCPU comparison price.",
+   "routes": [],
+   "source": "Oracle Cloud price list",
+   "source_url": "https://www.oracle.com/cloud/price-list/",
+   "page_url": "https://www.oracle.com/cloud/price-list/",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "gp-arm",
+   "provider": "oci",
+   "sku": "VM.Standard.A2.Flex",
+   "unit_price_usd": 0.015,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": null,
+   "units_per_machine": null,
+   "spec": "Flexible: you choose cores and memory",
+   "note": "Billed as $0.014 per OCPU-hour plus $0.002 per GiB-hour; shown at 4 GiB per vCPU using Oracle's own per-vCPU comparison price.",
+   "routes": [],
+   "source": "Oracle Cloud price list",
+   "source_url": "https://www.oracle.com/cloud/price-list/",
+   "page_url": "https://www.oracle.com/cloud/price-list/",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "mem",
+   "provider": "aws",
+   "sku": "r8i.48xlarge",
+   "unit_price_usd": 0.0695,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": 13.3363,
+   "units_per_machine": 192,
+   "spec": "192 vCPU · 1536 GiB",
+   "note": "",
+   "routes": [],
+   "source": "AWS Price List, us-east-1, Linux on demand",
+   "source_url": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonEC2/20261114012926/us-east-1/index.json",
+   "page_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "mem",
+   "provider": "aws",
+   "sku": "r8g.48xlarge",
+   "unit_price_usd": 0.0589,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": 11.3107,
+   "units_per_machine": 192,
+   "spec": "192 vCPU · 1536 GiB",
+   "note": "",
+   "routes": [],
+   "source": "AWS Price List, us-east-1, Linux on demand",
+   "source_url": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonEC2/20261114012926/us-east-1/index.json",
+   "page_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "mem",
+   "provider": "azure",
+   "sku": "Standard_E96s_v5",
+   "unit_price_usd": 0.063,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": 6.048,
+   "units_per_machine": 96,
+   "spec": "96 vCPU · 672 GiB",
+   "note": "7 GiB per vCPU.",
+   "routes": [],
+   "source": "Azure Retail Prices API, Linux pay as you go",
+   "source_url": "https://prices.azure.com/api/retail/prices",
+   "page_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "mem",
+   "provider": "oci",
+   "sku": "VM.Standard.E5.Flex",
+   "unit_price_usd": 0.031,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": null,
+   "units_per_machine": null,
+   "spec": "Flexible: you choose cores and memory",
+   "note": "Billed as $0.03 per OCPU-hour plus $0.002 per GiB-hour; shown at 8 GiB per vCPU using Oracle's own per-vCPU comparison price.",
+   "routes": [],
+   "source": "Oracle Cloud price list",
+   "source_url": "https://www.oracle.com/cloud/price-list/",
+   "page_url": "https://www.oracle.com/cloud/price-list/",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "h100",
+   "provider": "aws",
+   "sku": "p5.48xlarge",
+   "unit_price_usd": 6.88,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": 55.04,
+   "units_per_machine": 8,
+   "spec": "8× H100 · 192 vCPU · 2048 GiB",
+   "note": "",
+   "routes": [
+    {
+     "label": "Capacity Block",
+     "unit_price_usd": 5.97
+    }
+   ],
+   "source": "AWS Price List, us-east-1, Linux on demand",
+   "source_url": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonEC2/20261114012926/us-east-1/index.json",
+   "page_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "h100",
+   "provider": "azure",
+   "sku": "Standard_ND96isr_H100_v5",
+   "unit_price_usd": 12.29,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": 98.32,
+   "units_per_machine": 8,
+   "spec": "8× H100 · 96 vCPU · 1,900 GiB",
+   "note": "",
+   "routes": [],
+   "source": "Azure Retail Prices API, Linux pay as you go",
+   "source_url": "https://prices.azure.com/api/retail/prices",
+   "page_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "h100",
+   "provider": "azure",
+   "sku": "Standard_NC40ads_H100_v5",
+   "unit_price_usd": 6.98,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": 6.98,
+   "units_per_machine": 1,
+   "spec": "1× H100 · 40 vCPU · 320 GiB",
+   "note": "",
+   "routes": [],
+   "source": "Azure Retail Prices API, Linux pay as you go",
+   "source_url": "https://prices.azure.com/api/retail/prices",
+   "page_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "h100",
+   "provider": "gcp",
+   "sku": "a3-highgpu-8g",
+   "unit_price_usd": 11.0613,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": 88.49,
+   "units_per_machine": 8,
+   "spec": "8× H100 · 208 vCPU · 1,871 GB",
+   "note": "",
+   "routes": [
+    {
+     "label": "Spot",
+     "unit_price_usd": 6.5876
+    },
+    {
+     "label": "3-year commitment",
+     "unit_price_usd": 4.858
+    },
+    {
+     "label": "Flex-start",
+     "unit_price_usd": 4.79
+    }
+   ],
+   "source": "Google Compute Engine pricing page",
+   "source_url": "https://cloud.google.com/products/compute/pricing/accelerator-optimized",
+   "page_url": "https://cloud.google.com/products/compute/pricing/accelerator-optimized",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "h100",
+   "provider": "oci",
+   "sku": "BM.GPU.H100.8",
+   "unit_price_usd": 10.0,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": null,
+   "units_per_machine": null,
+   "spec": "8× H100 80GB, bare metal",
+   "note": "",
+   "routes": [],
+   "source": "Oracle Cloud price list",
+   "source_url": "https://www.oracle.com/cloud/price-list/",
+   "page_url": "https://www.oracle.com/cloud/price-list/",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "h100",
+   "provider": "coreweave",
+   "sku": "HGX H100",
+   "unit_price_usd": 6.155,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": 49.24,
+   "units_per_machine": 8,
+   "spec": "8× H100 · 128 vCPU · 2,048 GB",
+   "note": "Sold as the whole eight-GPU node.",
+   "routes": [
+    {
+     "label": "Spot",
+     "unit_price_usd": 2.4638
+    }
+   ],
+   "source": "CoreWeave pricing page",
+   "source_url": "https://coreweave.com/pricing",
+   "page_url": "https://coreweave.com/pricing",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "h100",
+   "provider": "lambda",
+   "sku": "8× HGX H100",
+   "unit_price_usd": 3.99,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": null,
+   "units_per_machine": null,
+   "spec": "8× H100 · 208 vCPU · 1,800 GiB",
+   "note": "Single-GPU instances are $4.29 (SXM) or $3.29 (PCIe).",
+   "routes": [],
+   "source": "Lambda pricing page",
+   "source_url": "https://lambda.com/pricing",
+   "page_url": "https://lambda.com/pricing",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "h100",
+   "provider": "nebius",
+   "sku": "HGX H100",
+   "unit_price_usd": 4.5,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": null,
+   "units_per_machine": null,
+   "spec": "16 vCPU · 200 GB per GPU",
+   "note": "",
+   "routes": [
+    {
+     "label": "Preemptible, from",
+     "unit_price_usd": 0.79
+    }
+   ],
+   "source": "Nebius pricing page",
+   "source_url": "https://nebius.com/prices",
+   "page_url": "https://nebius.com/prices",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "h100",
+   "provider": "crusoe",
+   "sku": "H100 HGX",
+   "unit_price_usd": 4.5,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": null,
+   "units_per_machine": null,
+   "spec": "80 GB",
+   "note": "",
+   "routes": [],
+   "source": "Crusoe pricing page",
+   "source_url": "https://www.crusoe.ai/cloud/pricing",
+   "page_url": "https://www.crusoe.ai/cloud/pricing",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "h100",
+   "provider": "together",
+   "sku": "H100 cluster",
+   "unit_price_usd": 3.99,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": null,
+   "units_per_machine": null,
+   "spec": "8 to 256 GPUs",
+   "note": "",
+   "routes": [
+    {
+     "label": "Reserved, from",
+     "unit_price_usd": 3.19
+    }
+   ],
+   "source": "Together AI GPU clusters page",
+   "source_url": "https://www.together.ai/gpu-clusters",
+   "page_url": "https://www.together.ai/gpu-clusters",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "h100",
+   "provider": "runpod",
+   "sku": "H100 SXM",
+   "unit_price_usd": 3.99,
+   "purchase": "per_second",
+   "machine_price_usd_hr": null,
+   "units_per_machine": null,
+   "spec": "Secure Cloud pod",
+   "note": "",
+   "routes": [
+    {
+     "label": "Community Cloud, from",
+     "unit_price_usd": 2.69
+    }
+   ],
+   "source": "RunPod pricing page",
+   "source_url": "https://www.runpod.io/pricing",
+   "page_url": "https://www.runpod.io/pricing",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "h100",
+   "provider": "modal",
+   "sku": "H100 SXM5",
+   "unit_price_usd": 3.9492,
+   "purchase": "per_second",
+   "machine_price_usd_hr": null,
+   "units_per_machine": null,
+   "spec": "$0.001097 per second",
+   "note": "",
+   "routes": [],
+   "source": "Modal pricing page",
+   "source_url": "https://modal.com/pricing",
+   "page_url": "https://modal.com/pricing",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "h100",
+   "provider": "replicate",
+   "sku": "gpu-h100",
+   "unit_price_usd": 5.49,
+   "purchase": "per_second",
+   "machine_price_usd_hr": null,
+   "units_per_machine": null,
+   "spec": "$0.001525 per second",
+   "note": "",
+   "routes": [],
+   "source": "Replicate pricing page",
+   "source_url": "https://replicate.com/pricing",
+   "page_url": "https://replicate.com/pricing",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "h200",
+   "provider": "aws",
+   "sku": "p5en.48xlarge",
+   "unit_price_usd": 7.912,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": 63.296,
+   "units_per_machine": 8,
+   "spec": "8× H200 · 192 vCPU · 2048 GiB",
+   "note": "",
+   "routes": [],
+   "source": "AWS Price List, us-east-1, Linux on demand",
+   "source_url": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonEC2/20261114012926/us-east-1/index.json",
+   "page_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "h200",
+   "provider": "azure",
+   "sku": "Standard_ND96isr_H200_v5",
+   "unit_price_usd": 10.6,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": 84.8,
+   "units_per_machine": 8,
+   "spec": "8× H200 · 96 vCPU · 1,850 GiB",
+   "note": "East US 2 price. Not offered in East US; other regions run from $84.80 to $169.60.",
+   "routes": [],
+   "source": "Azure Retail Prices API, Linux pay as you go",
+   "source_url": "https://prices.azure.com/api/retail/prices",
+   "page_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "h200",
+   "provider": "gcp",
+   "sku": "a3-ultragpu-8g",
+   "unit_price_usd": 10.6009,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": 84.8069,
+   "units_per_machine": 8,
+   "spec": "8× H200 · 224 vCPU · 2,952 GB",
+   "note": "The price page lists this rate; Google’s machine-type guide says A3 Ultra is not sold on demand.",
+   "routes": [
+    {
+     "label": "Spot",
+     "unit_price_usd": 6.3589
+    },
+    {
+     "label": "3-year commitment",
+     "unit_price_usd": 4.6511
+    },
+    {
+     "label": "Flex-start",
+     "unit_price_usd": 5.3
+    }
+   ],
+   "source": "Google Compute Engine pricing page",
+   "source_url": "https://cloud.google.com/products/compute/pricing/accelerator-optimized",
+   "page_url": "https://cloud.google.com/products/compute/pricing/accelerator-optimized",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "h200",
+   "provider": "oci",
+   "sku": "BM.GPU.H200.8",
+   "unit_price_usd": 10.0,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": null,
+   "units_per_machine": null,
+   "spec": "8× H200 141GB, bare metal",
+   "note": "",
+   "routes": [],
+   "source": "Oracle Cloud price list",
+   "source_url": "https://www.oracle.com/cloud/price-list/",
+   "page_url": "https://www.oracle.com/cloud/price-list/",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "h200",
+   "provider": "coreweave",
+   "sku": "HGX H200",
+   "unit_price_usd": 6.305,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": 50.44,
+   "units_per_machine": 8,
+   "spec": "8× H200 · 128 vCPU · 2,048 GB",
+   "note": "",
+   "routes": [
+    {
+     "label": "Spot",
+     "unit_price_usd": 2.6162
+    }
+   ],
+   "source": "CoreWeave pricing page",
+   "source_url": "https://coreweave.com/pricing",
+   "page_url": "https://coreweave.com/pricing",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "h200",
+   "provider": "nebius",
+   "sku": "HGX H200",
+   "unit_price_usd": 5.4,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": null,
+   "units_per_machine": null,
+   "spec": "16 vCPU · 200 GB per GPU",
+   "note": "",
+   "routes": [
+    {
+     "label": "Preemptible, from",
+     "unit_price_usd": 0.79
+    }
+   ],
+   "source": "Nebius pricing page",
+   "source_url": "https://nebius.com/prices",
+   "page_url": "https://nebius.com/prices",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "h200",
+   "provider": "crusoe",
+   "sku": "H200 HGX",
+   "unit_price_usd": 5.4,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": null,
+   "units_per_machine": null,
+   "spec": "141 GB",
+   "note": "",
+   "routes": [],
+   "source": "Crusoe pricing page",
+   "source_url": "https://www.crusoe.ai/cloud/pricing",
+   "page_url": "https://www.crusoe.ai/cloud/pricing",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "h200",
+   "provider": "together",
+   "sku": "H200 cluster",
+   "unit_price_usd": 5.99,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": null,
+   "units_per_machine": null,
+   "spec": "256 to 1,000 GPUs",
+   "note": "",
+   "routes": [
+    {
+     "label": "Reserved, from",
+     "unit_price_usd": 3.99
+    }
+   ],
+   "source": "Together AI GPU clusters page",
+   "source_url": "https://www.together.ai/gpu-clusters",
+   "page_url": "https://www.together.ai/gpu-clusters",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "h200",
+   "provider": "runpod",
+   "sku": "H200",
+   "unit_price_usd": 5.29,
+   "purchase": "per_second",
+   "machine_price_usd_hr": null,
+   "units_per_machine": null,
+   "spec": "Secure Cloud pod",
+   "note": "",
+   "routes": [
+    {
+     "label": "Community Cloud, from",
+     "unit_price_usd": 3.59
+    }
+   ],
+   "source": "RunPod pricing page",
+   "source_url": "https://www.runpod.io/pricing",
+   "page_url": "https://www.runpod.io/pricing",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "h200",
+   "provider": "modal",
+   "sku": "H200 SXM",
+   "unit_price_usd": 4.5396,
+   "purchase": "per_second",
+   "machine_price_usd_hr": null,
+   "units_per_machine": null,
+   "spec": "$0.001261 per second",
+   "note": "",
+   "routes": [],
+   "source": "Modal pricing page",
+   "source_url": "https://modal.com/pricing",
+   "page_url": "https://modal.com/pricing",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "h200",
+   "provider": "replicate",
+   "sku": "gpu-h200",
+   "unit_price_usd": null,
+   "purchase": "ask_sales",
+   "machine_price_usd_hr": null,
+   "units_per_machine": null,
+   "spec": "Committed-spend contracts only",
+   "note": "",
+   "routes": [],
+   "source": "Replicate pricing page",
+   "source_url": "https://replicate.com/pricing",
+   "page_url": "https://replicate.com/pricing",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "b200",
+   "provider": "aws",
+   "sku": "p6-b200.48xlarge",
+   "unit_price_usd": 14.2416,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": 113.9328,
+   "units_per_machine": 8,
+   "spec": "8× B200 · 192 vCPU · 2048 GiB",
+   "note": "",
+   "routes": [
+    {
+     "label": "Capacity Block",
+     "unit_price_usd": 14.208
+    }
+   ],
+   "source": "AWS Price List, us-east-1, Linux on demand",
+   "source_url": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonEC2/20261114012926/us-east-1/index.json",
+   "page_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "b200",
+   "provider": "gcp",
+   "sku": "a4-highgpu-8g",
+   "unit_price_usd": 8.055,
+   "purchase": "reservation_only",
+   "machine_price_usd_hr": 64.44,
+   "units_per_machine": 8,
+   "spec": "8× B200 · 224 vCPU · 3,968 GB",
+   "note": "No on-demand price. Shown at Google’s Flex-start rate.",
+   "routes": [
+    {
+     "label": "Spot",
+     "unit_price_usd": 5.4496
+    },
+    {
+     "label": "3-year commitment",
+     "unit_price_usd": 7.0884
+    }
+   ],
+   "source": "Google Compute Engine pricing page",
+   "source_url": "https://cloud.google.com/products/compute/pricing/accelerator-optimized",
+   "page_url": "https://cloud.google.com/products/compute/pricing/accelerator-optimized",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "b200",
+   "provider": "oci",
+   "sku": "BM.GPU.B200.8",
+   "unit_price_usd": 14.0,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": null,
+   "units_per_machine": null,
+   "spec": "8× B200 180GB, bare metal",
+   "note": "",
+   "routes": [],
+   "source": "Oracle Cloud price list",
+   "source_url": "https://www.oracle.com/cloud/price-list/",
+   "page_url": "https://www.oracle.com/cloud/price-list/",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "b200",
+   "provider": "coreweave",
+   "sku": "HGX B200",
+   "unit_price_usd": 8.6,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": 68.8,
+   "units_per_machine": 8,
+   "spec": "8× B200 · 128 vCPU · 2,048 GB",
+   "note": "",
+   "routes": [
+    {
+     "label": "Spot",
+     "unit_price_usd": 4.2637
+    }
+   ],
+   "source": "CoreWeave pricing page",
+   "source_url": "https://coreweave.com/pricing",
+   "page_url": "https://coreweave.com/pricing",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "b200",
+   "provider": "lambda",
+   "sku": "8× HGX B200",
+   "unit_price_usd": 6.69,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": null,
+   "units_per_machine": null,
+   "spec": "8× B200 · 208 vCPU · 2,900 GiB",
+   "note": "A single B200 is $6.99.",
+   "routes": [],
+   "source": "Lambda pricing page",
+   "source_url": "https://lambda.com/pricing",
+   "page_url": "https://lambda.com/pricing",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "b200",
+   "provider": "nebius",
+   "sku": "HGX B200",
+   "unit_price_usd": 8.5,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": null,
+   "units_per_machine": null,
+   "spec": "20 vCPU · 224 GB per GPU",
+   "note": "",
+   "routes": [
+    {
+     "label": "Preemptible, from",
+     "unit_price_usd": 0.99
+    }
+   ],
+   "source": "Nebius pricing page",
+   "source_url": "https://nebius.com/prices",
+   "page_url": "https://nebius.com/prices",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "b200",
+   "provider": "crusoe",
+   "sku": "B200 HGX",
+   "unit_price_usd": 8.5,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": null,
+   "units_per_machine": null,
+   "spec": "180 GB",
+   "note": "",
+   "routes": [],
+   "source": "Crusoe pricing page",
+   "source_url": "https://www.crusoe.ai/cloud/pricing",
+   "page_url": "https://www.crusoe.ai/cloud/pricing",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "b200",
+   "provider": "together",
+   "sku": "HGX B200 cluster",
+   "unit_price_usd": 8.19,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": null,
+   "units_per_machine": null,
+   "spec": "256 to 1,000+ GPUs",
+   "note": "",
+   "routes": [
+    {
+     "label": "Reserved, from",
+     "unit_price_usd": 6.79
+    }
+   ],
+   "source": "Together AI GPU clusters page",
+   "source_url": "https://www.together.ai/gpu-clusters",
+   "page_url": "https://www.together.ai/gpu-clusters",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "b200",
+   "provider": "modal",
+   "sku": "B200",
+   "unit_price_usd": 6.2496,
+   "purchase": "per_second",
+   "machine_price_usd_hr": null,
+   "units_per_machine": null,
+   "spec": "$0.001736 per second",
+   "note": "",
+   "routes": [],
+   "source": "Modal pricing page",
+   "source_url": "https://modal.com/pricing",
+   "page_url": "https://modal.com/pricing",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "gb200",
+   "provider": "aws",
+   "sku": "u-p6e-gb200x72",
+   "unit_price_usd": 10.582,
+   "purchase": "reservation_only",
+   "machine_price_usd_hr": 761.904,
+   "units_per_machine": 72,
+   "spec": "72× B200 in one NVL72 UltraServer",
+   "note": "Capacity Blocks only: a dated reservation paid up front.",
+   "routes": [],
+   "source": "AWS EC2 Capacity Blocks pricing page",
+   "source_url": "https://aws.amazon.com/ec2/capacityblocks/pricing",
+   "page_url": "https://aws.amazon.com/ec2/capacityblocks/pricing",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "gb200",
+   "provider": "azure",
+   "sku": "Standard_ND128isr_NDR_GB200_v6",
+   "unit_price_usd": 27.04,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": 108.16,
+   "units_per_machine": 4,
+   "spec": "4 GPUs · 128 vCPU · 900 GiB",
+   "note": "",
+   "routes": [],
+   "source": "Azure Retail Prices API, Linux pay as you go",
+   "source_url": "https://prices.azure.com/api/retail/prices",
+   "page_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "gb200",
+   "provider": "gcp",
+   "sku": "A4X series",
+   "unit_price_usd": null,
+   "purchase": "reservation_only",
+   "machine_price_usd_hr": null,
+   "units_per_machine": null,
+   "spec": "18 instances make one 72-GPU NVL72 domain",
+   "note": "No list price. Sold only as future reservations for capacity blocks.",
+   "routes": [],
+   "source": "Google Compute Engine pricing page",
+   "source_url": "https://cloud.google.com/products/compute/pricing/accelerator-optimized",
+   "page_url": "https://cloud.google.com/products/compute/pricing/accelerator-optimized",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "gb200",
+   "provider": "oci",
+   "sku": "BM.GPU.GB200.4",
+   "unit_price_usd": 16.0,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": null,
+   "units_per_machine": null,
+   "spec": "4× B200 189GB (NVL72), bare metal",
+   "note": "",
+   "routes": [],
+   "source": "Oracle Cloud price list",
+   "source_url": "https://www.oracle.com/cloud/price-list/",
+   "page_url": "https://www.oracle.com/cloud/price-list/",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "gb200",
+   "provider": "coreweave",
+   "sku": "GB200 NVL72",
+   "unit_price_usd": 10.5,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": 42.0,
+   "units_per_machine": 4,
+   "spec": "4 superchips · 144 vCPU · 960 GB",
+   "note": "No spot price.",
+   "routes": [],
+   "source": "CoreWeave pricing page",
+   "source_url": "https://coreweave.com/pricing",
+   "page_url": "https://coreweave.com/pricing",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "gb200",
+   "provider": "crusoe",
+   "sku": "GB200 NVL72",
+   "unit_price_usd": null,
+   "purchase": "ask_sales",
+   "machine_price_usd_hr": null,
+   "units_per_machine": null,
+   "spec": "186 GB",
+   "note": "",
+   "routes": [],
+   "source": "Crusoe pricing page",
+   "source_url": "https://www.crusoe.ai/cloud/pricing",
+   "page_url": "https://www.crusoe.ai/cloud/pricing",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "gb200",
+   "provider": "together",
+   "sku": "GB200 NVL72",
+   "unit_price_usd": null,
+   "purchase": "ask_sales",
+   "machine_price_usd_hr": null,
+   "units_per_machine": null,
+   "spec": "Reserved only, 512 to 1,000+ GPUs",
+   "note": "",
+   "routes": [],
+   "source": "Together AI GPU clusters page",
+   "source_url": "https://www.together.ai/gpu-clusters",
+   "page_url": "https://www.together.ai/gpu-clusters",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "a100",
+   "provider": "aws",
+   "sku": "p4de.24xlarge",
+   "unit_price_usd": 3.4309,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": 27.4471,
+   "units_per_machine": 8,
+   "spec": "8× A100 80GB · 96 vCPU · 1152 GiB",
+   "note": "",
+   "routes": [],
+   "source": "AWS Price List, us-east-1, Linux on demand",
+   "source_url": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonEC2/20261114012926/us-east-1/index.json",
+   "page_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "a100",
+   "provider": "azure",
+   "sku": "Standard_NC24ads_A100_v4",
+   "unit_price_usd": 3.673,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": 3.673,
+   "units_per_machine": 1,
+   "spec": "1× A100 80GB · 24 vCPU · 220 GiB",
+   "note": "",
+   "routes": [],
+   "source": "Azure Retail Prices API, Linux pay as you go",
+   "source_url": "https://prices.azure.com/api/retail/prices",
+   "page_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "a100",
+   "provider": "oci",
+   "sku": "BM.GPU.A100-v2.8",
+   "unit_price_usd": 4.0,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": null,
+   "units_per_machine": null,
+   "spec": "8× A100 80GB, bare metal",
+   "note": "",
+   "routes": [],
+   "source": "Oracle Cloud price list",
+   "source_url": "https://www.oracle.com/cloud/price-list/",
+   "page_url": "https://www.oracle.com/cloud/price-list/",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "a100",
+   "provider": "coreweave",
+   "sku": "A100",
+   "unit_price_usd": 2.7,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": 21.6,
+   "units_per_machine": 8,
+   "spec": "8× A100 · 128 vCPU · 2,048 GB",
+   "note": "",
+   "routes": [
+    {
+     "label": "Spot",
+     "unit_price_usd": 1.2063
+    }
+   ],
+   "source": "CoreWeave pricing page",
+   "source_url": "https://coreweave.com/pricing",
+   "page_url": "https://coreweave.com/pricing",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "a100",
+   "provider": "lambda",
+   "sku": "8× HGX A100",
+   "unit_price_usd": 2.79,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": null,
+   "units_per_machine": null,
+   "spec": "8× A100 80GB · 240 vCPU · 1,800 GiB",
+   "note": "",
+   "routes": [],
+   "source": "Lambda pricing page",
+   "source_url": "https://lambda.com/pricing",
+   "page_url": "https://lambda.com/pricing",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "a100",
+   "provider": "crusoe",
+   "sku": "A100 SXM",
+   "unit_price_usd": 2.3,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": null,
+   "units_per_machine": null,
+   "spec": "80 GB",
+   "note": "The PCIe version is $2.00.",
+   "routes": [],
+   "source": "Crusoe pricing page",
+   "source_url": "https://www.crusoe.ai/cloud/pricing",
+   "page_url": "https://www.crusoe.ai/cloud/pricing",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "a100",
+   "provider": "runpod",
+   "sku": "A100 SXM",
+   "unit_price_usd": 1.79,
+   "purchase": "per_second",
+   "machine_price_usd_hr": null,
+   "units_per_machine": null,
+   "spec": "Secure Cloud pod",
+   "note": "",
+   "routes": [
+    {
+     "label": "Community Cloud, from",
+     "unit_price_usd": 1.39
+    }
+   ],
+   "source": "RunPod pricing page",
+   "source_url": "https://www.runpod.io/pricing",
+   "page_url": "https://www.runpod.io/pricing",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "a100",
+   "provider": "modal",
+   "sku": "A100, 80 GB",
+   "unit_price_usd": 2.4984,
+   "purchase": "per_second",
+   "machine_price_usd_hr": null,
+   "units_per_machine": null,
+   "spec": "$0.000694 per second",
+   "note": "",
+   "routes": [],
+   "source": "Modal pricing page",
+   "source_url": "https://modal.com/pricing",
+   "page_url": "https://modal.com/pricing",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "a100",
+   "provider": "replicate",
+   "sku": "gpu-a100-large",
+   "unit_price_usd": 5.04,
+   "purchase": "per_second",
+   "machine_price_usd_hr": null,
+   "units_per_machine": null,
+   "spec": "$0.001400 per second",
+   "note": "",
+   "routes": [],
+   "source": "Replicate pricing page",
+   "source_url": "https://replicate.com/pricing",
+   "page_url": "https://replicate.com/pricing",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "l40s",
+   "provider": "aws",
+   "sku": "g6e.48xlarge",
+   "unit_price_usd": 3.7664,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": 30.1312,
+   "units_per_machine": 8,
+   "spec": "8× L40S · 192 vCPU · 1536 GiB",
+   "note": "",
+   "routes": [],
+   "source": "AWS Price List, us-east-1, Linux on demand",
+   "source_url": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonEC2/20261114012926/us-east-1/index.json",
+   "page_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "l40s",
+   "provider": "oci",
+   "sku": "BM.GPU.L40S.4",
+   "unit_price_usd": 3.5,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": null,
+   "units_per_machine": null,
+   "spec": "4× L40S 48GB, bare metal",
+   "note": "",
+   "routes": [],
+   "source": "Oracle Cloud price list",
+   "source_url": "https://www.oracle.com/cloud/price-list/",
+   "page_url": "https://www.oracle.com/cloud/price-list/",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "l40s",
+   "provider": "coreweave",
+   "sku": "L40S",
+   "unit_price_usd": 2.25,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": 18.0,
+   "units_per_machine": 8,
+   "spec": "8× L40S · 128 vCPU · 1,024 GB",
+   "note": "",
+   "routes": [
+    {
+     "label": "Spot",
+     "unit_price_usd": 0.985
+    }
+   ],
+   "source": "CoreWeave pricing page",
+   "source_url": "https://coreweave.com/pricing",
+   "page_url": "https://coreweave.com/pricing",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "l40s",
+   "provider": "nebius",
+   "sku": "L40S (Intel)",
+   "unit_price_usd": 1.55,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": null,
+   "units_per_machine": null,
+   "spec": "8 to 40 vCPU",
+   "note": "A “from” price.",
+   "routes": [
+    {
+     "label": "Preemptible, from",
+     "unit_price_usd": 0.74
+    }
+   ],
+   "source": "Nebius pricing page",
+   "source_url": "https://nebius.com/prices",
+   "page_url": "https://nebius.com/prices",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "l40s",
+   "provider": "crusoe",
+   "sku": "L40S",
+   "unit_price_usd": 1.5,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": null,
+   "units_per_machine": null,
+   "spec": "48 GB",
+   "note": "",
+   "routes": [],
+   "source": "Crusoe pricing page",
+   "source_url": "https://www.crusoe.ai/cloud/pricing",
+   "page_url": "https://www.crusoe.ai/cloud/pricing",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "l40s",
+   "provider": "modal",
+   "sku": "L40S",
+   "unit_price_usd": 1.9512,
+   "purchase": "per_second",
+   "machine_price_usd_hr": null,
+   "units_per_machine": null,
+   "spec": "$0.000542 per second",
+   "note": "",
+   "routes": [],
+   "source": "Modal pricing page",
+   "source_url": "https://modal.com/pricing",
+   "page_url": "https://modal.com/pricing",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "l40s",
+   "provider": "replicate",
+   "sku": "gpu-l40s",
+   "unit_price_usd": 3.51,
+   "purchase": "per_second",
+   "machine_price_usd_hr": null,
+   "units_per_machine": null,
+   "spec": "$0.000975 per second",
+   "note": "",
+   "routes": [],
+   "source": "Replicate pricing page",
+   "source_url": "https://replicate.com/pricing",
+   "page_url": "https://replicate.com/pricing",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "custom",
+   "provider": "aws",
+   "sku": "trn1.32xlarge",
+   "unit_price_usd": 1.3438,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": 21.5,
+   "units_per_machine": 16,
+   "spec": "16× AWS Trainium",
+   "note": "",
+   "routes": [
+    {
+     "label": "Capacity Block",
+     "unit_price_usd": 0.596
+    }
+   ],
+   "source": "AWS Price List, us-east-1, Linux on demand",
+   "source_url": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonEC2/20261114012926/us-east-1/index.json",
+   "page_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "custom",
+   "provider": "aws",
+   "sku": "inf2.48xlarge",
+   "unit_price_usd": 1.0818,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": 12.9813,
+   "units_per_machine": 12,
+   "spec": "12× AWS Inferentia2",
+   "note": "",
+   "routes": [],
+   "source": "AWS Price List, us-east-1, Linux on demand",
+   "source_url": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonEC2/20261114012926/us-east-1/index.json",
+   "page_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "custom",
+   "provider": "gcp",
+   "sku": "TPU v5e",
+   "unit_price_usd": 1.2,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": null,
+   "units_per_machine": null,
+   "spec": "Google TPU · us-central1",
+   "note": "",
+   "routes": [
+    {
+     "label": "3-year commitment",
+     "unit_price_usd": 0.54
+    }
+   ],
+   "source": "Google Cloud TPU pricing page",
+   "source_url": "https://cloud.google.com/tpu/pricing",
+   "page_url": "https://cloud.google.com/tpu/pricing",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "custom",
+   "provider": "gcp",
+   "sku": "TPU Trillium",
+   "unit_price_usd": 2.7,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": null,
+   "units_per_machine": null,
+   "spec": "Google TPU · us-east1",
+   "note": "",
+   "routes": [
+    {
+     "label": "3-year commitment",
+     "unit_price_usd": 1.22
+    }
+   ],
+   "source": "Google Cloud TPU pricing page",
+   "source_url": "https://cloud.google.com/tpu/pricing",
+   "page_url": "https://cloud.google.com/tpu/pricing",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "custom",
+   "provider": "gcp",
+   "sku": "TPU v5p",
+   "unit_price_usd": 4.2,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": null,
+   "units_per_machine": null,
+   "spec": "Google TPU · us-east5",
+   "note": "",
+   "routes": [
+    {
+     "label": "3-year commitment",
+     "unit_price_usd": 1.89
+    }
+   ],
+   "source": "Google Cloud TPU pricing page",
+   "source_url": "https://cloud.google.com/tpu/pricing",
+   "page_url": "https://cloud.google.com/tpu/pricing",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "custom",
+   "provider": "gcp",
+   "sku": "TPU Ironwood",
+   "unit_price_usd": 12.0,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": null,
+   "units_per_machine": null,
+   "spec": "Google TPU · us-central1",
+   "note": "",
+   "routes": [
+    {
+     "label": "3-year commitment",
+     "unit_price_usd": 5.4
+    }
+   ],
+   "source": "Google Cloud TPU pricing page",
+   "source_url": "https://cloud.google.com/tpu/pricing",
+   "page_url": "https://cloud.google.com/tpu/pricing",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "custom",
+   "provider": "oci",
+   "sku": "BM.GPU.MI300X.8",
+   "unit_price_usd": 6.0,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": null,
+   "units_per_machine": null,
+   "spec": "8× AMD MI300X 192GB, bare metal",
+   "note": "",
+   "routes": [],
+   "source": "Oracle Cloud price list",
+   "source_url": "https://www.oracle.com/cloud/price-list/",
+   "page_url": "https://www.oracle.com/cloud/price-list/",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "custom",
+   "provider": "oci",
+   "sku": "BM.GPU.MI355X.8",
+   "unit_price_usd": 8.6,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": null,
+   "units_per_machine": null,
+   "spec": "8× AMD MI355X 288GB, bare metal",
+   "note": "",
+   "routes": [],
+   "source": "Oracle Cloud price list",
+   "source_url": "https://www.oracle.com/cloud/price-list/",
+   "page_url": "https://www.oracle.com/cloud/price-list/",
+   "collected": "2026-11-13"
+  },
+  {
+   "class": "custom",
+   "provider": "crusoe",
+   "sku": "AMD MI300X",
+   "unit_price_usd": 3.45,
+   "purchase": "on_demand",
+   "machine_price_usd_hr": null,
+   "units_per_machine": null,
+   "spec": "192 GB",
+   "note": "",
+   "routes": [],
+   "source": "Crusoe pricing page",
+   "source_url": "https://www.crusoe.ai/cloud/pricing",
+   "page_url": "https://www.crusoe.ai/cloud/pricing",
+   "collected": "2026-11-13"
+  }
+ ],
+ "anatomy": {
+  "h100": [
+   {
+    "provider": "aws",
+    "parts": [
+     {
+      "text": "p",
+      "kind": "family",
+      "meaning": "P: GPU accelerated"
+     },
+     {
+      "text": "5",
+      "kind": "gen",
+      "meaning": "Fifth generation"
+     },
+     {
+      "text": ".",
+      "kind": null,
+      "meaning": ""
+     },
+     {
+      "text": "48xlarge",
+      "kind": "size",
+      "meaning": "Size: 192 vCPUs and, in this family, all eight GPUs"
+     }
+    ]
+   },
+   {
+    "provider": "azure",
+    "parts": [
+     {
+      "text": "Standard_",
+      "kind": "tier",
+      "meaning": "Prefix on Azure VM sizes"
+     },
+     {
+      "text": "N",
+      "kind": "family",
+      "meaning": "N: GPU family"
+     },
+     {
+      "text": "D",
+      "kind": "family",
+      "meaning": "D: sub-family within the GPU sizes"
+     },
+     {
+      "text": "96",
+      "kind": "size",
+      "meaning": "96 vCPUs"
+     },
+     {
+      "text": "i",
+      "kind": "feat",
+      "meaning": "i: isolated, the whole host is yours"
+     },
+     {
+      "text": "s",
+      "kind": "feat",
+      "meaning": "s: Premium Storage capable"
+     },
+     {
+      "text": "r",
+      "kind": "feat",
+      "meaning": "r: RDMA networking"
+     },
+     {
+      "text": "_",
+      "kind": null,
+      "meaning": ""
+     },
+     {
+      "text": "H100",
+      "kind": "chip",
+      "meaning": "The accelerator, by name"
+     },
+     {
+      "text": "_",
+      "kind": null,
+      "meaning": ""
+     },
+     {
+      "text": "v5",
+      "kind": "gen",
+      "meaning": "Version 5"
+     }
+    ]
+   },
+   {
+    "provider": "gcp",
+    "parts": [
+     {
+      "text": "a",
+      "kind": "family",
+      "meaning": "A: accelerator-optimized"
+     },
+     {
+      "text": "3",
+      "kind": "gen",
+      "meaning": "Third generation"
+     },
+     {
+      "text": "-",
+      "kind": null,
+      "meaning": ""
+     },
+     {
+      "text": "highgpu",
+      "kind": "feat",
+      "meaning": "Machine type within the series"
+     },
+     {
+      "text": "-",
+      "kind": null,
+      "meaning": ""
+     },
+     {
+      "text": "8",
+      "kind": "count",
+      "meaning": "Eight GPUs"
+     },
+     {
+      "text": "g",
+      "kind": "count",
+      "meaning": "g: GPUs"
+     }
+    ]
+   },
+   {
+    "provider": "oci",
+    "parts": [
+     {
+      "text": "BM",
+      "kind": "tier",
+      "meaning": "Bare metal, not a VM"
+     },
+     {
+      "text": ".",
+      "kind": null,
+      "meaning": ""
+     },
+     {
+      "text": "GPU",
+      "kind": "family",
+      "meaning": "GPU shape family"
+     },
+     {
+      "text": ".",
+      "kind": null,
+      "meaning": ""
+     },
+     {
+      "text": "H100",
+      "kind": "chip",
+      "meaning": "The accelerator, by name"
+     },
+     {
+      "text": ".",
+      "kind": null,
+      "meaning": ""
+     },
+     {
+      "text": "8",
+      "kind": "count",
+      "meaning": "Eight GPUs"
+     }
+    ]
+   },
+   {
+    "provider": "coreweave",
+    "parts": [
+     {
+      "text": "HGX ",
+      "kind": "family",
+      "meaning": "HGX: NVIDIA’s multi-GPU server platform"
+     },
+     {
+      "text": "H100",
+      "kind": "chip",
+      "meaning": "The accelerator, by name"
+     }
+    ]
+   }
+  ],
+  "b200": [
+   {
+    "provider": "aws",
+    "parts": [
+     {
+      "text": "p",
+      "kind": "family",
+      "meaning": "P: GPU accelerated"
+     },
+     {
+      "text": "6",
+      "kind": "gen",
+      "meaning": "Sixth generation"
+     },
+     {
+      "text": "-",
+      "kind": null,
+      "meaning": ""
+     },
+     {
+      "text": "b200",
+      "kind": "chip",
+      "meaning": "Blackwell B200: from this generation AWS puts the chip in the name"
+     },
+     {
+      "text": ".",
+      "kind": null,
+      "meaning": ""
+     },
+     {
+      "text": "48xlarge",
+      "kind": "size",
+      "meaning": "Size: 192 vCPUs, eight GPUs"
+     }
+    ]
+   },
+   {
+    "provider": "gcp",
+    "parts": [
+     {
+      "text": "a",
+      "kind": "family",
+      "meaning": "A: accelerator-optimized"
+     },
+     {
+      "text": "4",
+      "kind": "gen",
+      "meaning": "Fourth generation"
+     },
+     {
+      "text": "-",
+      "kind": null,
+      "meaning": ""
+     },
+     {
+      "text": "highgpu",
+      "kind": "feat",
+      "meaning": "Machine type within the series"
+     },
+     {
+      "text": "-",
+      "kind": null,
+      "meaning": ""
+     },
+     {
+      "text": "8",
+      "kind": "count",
+      "meaning": "Eight GPUs"
+     },
+     {
+      "text": "g",
+      "kind": "count",
+      "meaning": "g: GPUs"
+     }
+    ]
+   },
+   {
+    "provider": "oci",
+    "parts": [
+     {
+      "text": "BM",
+      "kind": "tier",
+      "meaning": "Bare metal, not a VM"
+     },
+     {
+      "text": ".",
+      "kind": null,
+      "meaning": ""
+     },
+     {
+      "text": "GPU",
+      "kind": "family",
+      "meaning": "GPU shape family"
+     },
+     {
+      "text": ".",
+      "kind": null,
+      "meaning": ""
+     },
+     {
+      "text": "B200",
+      "kind": "chip",
+      "meaning": "The accelerator, by name"
+     },
+     {
+      "text": ".",
+      "kind": null,
+      "meaning": ""
+     },
+     {
+      "text": "8",
+      "kind": "count",
+      "meaning": "Eight GPUs"
+     }
+    ]
+   },
+   {
+    "provider": "coreweave",
+    "parts": [
+     {
+      "text": "HGX ",
+      "kind": "family",
+      "meaning": "HGX: NVIDIA’s multi-GPU server platform"
+     },
+     {
+      "text": "B200",
+      "kind": "chip",
+      "meaning": "The accelerator, by name"
+     }
+    ]
+   }
+  ],
+  "gp-x86": [
+   {
+    "provider": "aws",
+    "parts": [
+     {
+      "text": "m",
+      "kind": "family",
+      "meaning": "M: general purpose"
+     },
+     {
+      "text": "8",
+      "kind": "gen",
+      "meaning": "Eighth generation"
+     },
+     {
+      "text": "i",
+      "kind": "cpu",
+      "meaning": "i: Intel processor"
+     },
+     {
+      "text": ".",
+      "kind": null,
+      "meaning": ""
+     },
+     {
+      "text": "48xlarge",
+      "kind": "size",
+      "meaning": "Size: 192 vCPUs"
+     }
+    ]
+   },
+   {
+    "provider": "azure",
+    "parts": [
+     {
+      "text": "Standard_",
+      "kind": "tier",
+      "meaning": "Prefix on Azure VM sizes"
+     },
+     {
+      "text": "D",
+      "kind": "family",
+      "meaning": "D: general purpose"
+     },
+     {
+      "text": "192",
+      "kind": "size",
+      "meaning": "192 vCPUs"
+     },
+     {
+      "text": "s",
+      "kind": "feat",
+      "meaning": "s: Premium Storage capable"
+     },
+     {
+      "text": "_",
+      "kind": null,
+      "meaning": ""
+     },
+     {
+      "text": "v6",
+      "kind": "gen",
+      "meaning": "Version 6"
+     }
+    ]
+   },
+   {
+    "provider": "gcp",
+    "parts": [
+     {
+      "text": "n",
+      "kind": "family",
+      "meaning": "N: a general-purpose series"
+     },
+     {
+      "text": "4",
+      "kind": "gen",
+      "meaning": "Fourth generation"
+     },
+     {
+      "text": "-",
+      "kind": null,
+      "meaning": ""
+     },
+     {
+      "text": "standard",
+      "kind": "feat",
+      "meaning": "standard: 4 GiB of memory per vCPU"
+     },
+     {
+      "text": "-",
+      "kind": null,
+      "meaning": ""
+     },
+     {
+      "text": "80",
+      "kind": "size",
+      "meaning": "80 vCPUs"
+     }
+    ]
+   },
+   {
+    "provider": "oci",
+    "parts": [
+     {
+      "text": "VM",
+      "kind": "tier",
+      "meaning": "Virtual machine"
+     },
+     {
+      "text": ".",
+      "kind": null,
+      "meaning": ""
+     },
+     {
+      "text": "Standard",
+      "kind": "family",
+      "meaning": "Standard shape family"
+     },
+     {
+      "text": ".",
+      "kind": null,
+      "meaning": ""
+     },
+     {
+      "text": "E",
+      "kind": "cpu",
+      "meaning": "E: AMD processor"
+     },
+     {
+      "text": "5",
+      "kind": "gen",
+      "meaning": "Fifth generation"
+     },
+     {
+      "text": ".",
+      "kind": null,
+      "meaning": ""
+     },
+     {
+      "text": "Flex",
+      "kind": "size",
+      "meaning": "Flex: you choose the cores and the memory"
+     }
+    ]
+   }
+  ],
+  "gp-arm": [
+   {
+    "provider": "aws",
+    "parts": [
+     {
+      "text": "m",
+      "kind": "family",
+      "meaning": "M: general purpose"
+     },
+     {
+      "text": "8",
+      "kind": "gen",
+      "meaning": "Eighth generation"
+     },
+     {
+      "text": "g",
+      "kind": "cpu",
+      "meaning": "g: AWS Graviton (Arm)"
+     },
+     {
+      "text": ".",
+      "kind": null,
+      "meaning": ""
+     },
+     {
+      "text": "48xlarge",
+      "kind": "size",
+      "meaning": "Size: 192 vCPUs"
+     }
+    ]
+   },
+   {
+    "provider": "azure",
+    "parts": [
+     {
+      "text": "Standard_",
+      "kind": "tier",
+      "meaning": "Prefix on Azure VM sizes"
+     },
+     {
+      "text": "D",
+      "kind": "family",
+      "meaning": "D: general purpose"
+     },
+     {
+      "text": "96",
+      "kind": "size",
+      "meaning": "96 vCPUs"
+     },
+     {
+      "text": "p",
+      "kind": "cpu",
+      "meaning": "p: Arm processor"
+     },
+     {
+      "text": "s",
+      "kind": "feat",
+      "meaning": "s: Premium Storage capable"
+     },
+     {
+      "text": "_",
+      "kind": null,
+      "meaning": ""
+     },
+     {
+      "text": "v6",
+      "kind": "gen",
+      "meaning": "Version 6"
+     }
+    ]
+   },
+   {
+    "provider": "gcp",
+    "parts": [
+     {
+      "text": "c",
+      "kind": "family",
+      "meaning": "C: a general-purpose series"
+     },
+     {
+      "text": "4",
+      "kind": "gen",
+      "meaning": "Fourth generation"
+     },
+     {
+      "text": "a",
+      "kind": "cpu",
+      "meaning": "a: Arm (Google Axion)"
+     },
+     {
+      "text": "-",
+      "kind": null,
+      "meaning": ""
+     },
+     {
+      "text": "standard",
+      "kind": "feat",
+      "meaning": "standard: 4 GiB of memory per vCPU"
+     },
+     {
+      "text": "-",
+      "kind": null,
+      "meaning": ""
+     },
+     {
+      "text": "72",
+      "kind": "size",
+      "meaning": "72 vCPUs"
+     }
+    ]
+   },
+   {
+    "provider": "oci",
+    "parts": [
+     {
+      "text": "VM",
+      "kind": "tier",
+      "meaning": "Virtual machine"
+     },
+     {
+      "text": ".",
+      "kind": null,
+      "meaning": ""
+     },
+     {
+      "text": "Standard",
+      "kind": "family",
+      "meaning": "Standard shape family"
+     },
+     {
+      "text": ".",
+      "kind": null,
+      "meaning": ""
+     },
+     {
+      "text": "A",
+      "kind": "cpu",
+      "meaning": "A: Ampere (Arm) processor"
+     },
+     {
+      "text": "4",
+      "kind": "gen",
+      "meaning": "Fourth generation"
+     },
+     {
+      "text": ".",
+      "kind": null,
+      "meaning": ""
+     },
+     {
+      "text": "Flex",
+      "kind": "size",
+      "meaning": "Flex: you choose the cores and the memory"
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,358 @@
+{
+ "general": [
+  {
+   "i": 0,
+   "header": [
+    "Machine type",
+    "Virtual CPUs",
+    "Memory",
+    "Price (USD) * info",
+    "Compute Flexible CUD - 1 Year* (USD) info",
+    "Compute Flexible CUD - 3 Year* (USD) info",
+    "Compute Resource CUDs - 1 Year (USD)",
+    "Compute Resource CUDs - 3 Year (USD)"
+   ],
+   "sel": [
+    [
+     "c4-standard-192",
+     "192",
+     "720 GiB",
+     "$9.48816 / 1 hour",
+     "$6.8314752 / 1 hour",
+     "$5.1236064 / 1 hour",
+     "$5.97768 / 1 hour",
+     "$4.269696 / 1 hour"
+    ]
+   ]
+  },
+  {
+   "i": 3,
+   "header": [
+    "VM Shape",
+    "vCPUs",
+    "Memory",
+    "Local SSD",
+    "Default* (USD) info",
+    "Compute Flexible CUD - 1 Year* (USD) info",
+    "Compute Flexible CUD - 3 Year* (USD) info",
+    "Compute Resource CUDs - 1 Year (USD)",
+    "Compute Resource CUDs - 3 Year (USD)"
+   ],
+   "sel": [
+    [
+     "c4-standard-192-lssd",
+     "192",
+     "720 GiB",
+     "12000 GiB",
+     "$12.118296986 / 1 hour",
+     "$8.72517383 / 1 hour",
+     "$6.543880373 / 1 hour",
+     "$7.634666301 / 1 hour",
+     "$5.453257644 / 1 hour"
+    ]
+   ]
+  },
+  {
+   "i": 5,
+   "header": [
+    "Machine type",
+    "Virtual CPUs",
+    "Memory",
+    "Default* (USD) info",
+    "Compute Flexible CUD - 1 Year* (USD) info",
+    "Compute Flexible CUD - 3 Year* (USD) info",
+    "Compute Resource CUDs - 1 Year (USD)",
+    "Compute Resource CUDs - 3 Year (USD)"
+   ],
+   "sel": [
+    [
+     "c4a-standard-72",
+     "72",
+     "288 GiB",
+     "$3.2328 / 1 hour",
+     "$2.327616 / 1 hour",
+     "$1.745712 / 1 hour",
+     "$2.13192 / 1 hour",
+     "$1.45512 / 1 hour"
+    ]
+   ]
+  },
+  {
+   "i": 8,
+   "header": [
+    "VM Shape",
+    "vCPUs",
+    "Memory",
+    "Local SSD",
+    "Default* (USD) info",
+    "Compute Flexible CUD - 1 Year* (USD) info",
+    "Compute Flexible CUD - 3 Year* (USD) info",
+    "Compute Resource CUDs - 1 Year (USD)",
+    "Compute Resource CUDs - 3 Year (USD)"
+   ],
+   "sel": [
+    [
+     "c4a-standard-72-lssd",
+     "72",
+     "288 GiB",
+     "6000 GiB",
+     "$4.21910137 / 1 hour",
+     "$3.037752986 / 1 hour",
+     "$2.27831474 / 1 hour",
+     "$2.782878904 / 1 hour",
+     "$1.898955616 / 1 hour"
+    ]
+   ]
+  },
+  {
+   "i": 15,
+   "header": [
+    "Machine type",
+    "Virtual CPUs",
+    "Memory",
+    "Default* (USD) info",
+    "Compute Flexible CUD - 1 Year* (USD) info",
+    "Compute Flexible CUD - 3 Year* (USD) info",
+    "Compute Resource CUDs - 1 Year (USD)",
+    "Compute Resource CUDs - 3 Year (USD)"
+   ],
+   "sel": [
+    [
+     "n4-standard-8",
+     "8",
+     "32 GiB",
+     "$0.3628 / 1 hour",
+     "$0.261216 / 1 hour",
+     "$0.195912 / 1 hour",
+     "$0.22856 / 1 hour",
+     "$0.163264 / 1 hour"
+    ],
+    [
+     "n4-standard-80",
+     "80",
+     "320 GiB",
+     "$3.628 / 1 hour",
+     "$2.61216 / 1 hour",
+     "$1.95912 / 1 hour",
+     "$2.2856 / 1 hour",
+     "$1.63264 / 1 hour"
+    ]
+   ]
+  },
+  {
+   "i": 29,
+   "header": [
+    "Machine type",
+    "Virtual CPUs",
+    "Memory",
+    "Default* (USD) info",
+    "Compute Flexible CUD - 1 Year* (USD) info",
+    "Compute Flexible CUD - 3 Year* (USD) info",
+    "Compute Resource CUDs - 1 Year (USD)",
+    "Compute Resource CUDs - 3 Year (USD)"
+   ],
+   "sel": [
+    [
+     "c3-standard-8",
+     "8",
+     "32 GiB",
+     "$0.403216 / 1 hour",
+     "$0.29031552 / 1 hour",
+     "$0.21773664 / 1 hour",
+     "$0.254032 / 1 hour",
+     "$0.181448 / 1 hour"
+    ],
+    [
+     "c3-standard-88",
+     "88",
+     "352 GiB",
+     "$4.435376 / 1 hour",
+     "$3.19347072 / 1 hour",
+     "$2.39510304 / 1 hour",
+     "$2.794352 / 1 hour",
+     "$1.995928 / 1 hour"
+    ]
+   ]
+  },
+  {
+   "i": 32,
+   "header": [
+    "Machine type",
+    "Virtual CPUs",
+    "Memory",
+    "Default* (USD) info",
+    "Compute Flexible CUD - 1 Year* (USD) info",
+    "Compute Flexible CUD - 3 Year* (USD) info",
+    "Compute Resource CUDs - 1 Year (USD)",
+    "Compute Resource CUDs - 3 Year (USD)"
+   ],
+   "sel": [
+    [
+     "c3d-standard-8",
+     "8",
+     "16 GiB",
+     "$0.363192 / 1 hour",
+     "$0.26149824 / 1 hour",
+     "$0.19612368 / 1 hour",
+     "$0.2288 / 1 hour",
+     "$0.163416 / 1 hour"
+    ]
+   ]
+  },
+  {
+   "i": 35,
+   "header": [
+    "Machine type",
+    "Virtual CPUs",
+    "Memory",
+    "Default* (USD) info",
+    "Compute Flexible CUD - 1 Year* (USD) info",
+    "Compute Flexible CUD - 3 Year* (USD) info",
+    "Compute Resource CUDs - 1 Year (USD)",
+    "Compute Resource CUDs - 3 Year (USD)"
+   ],
+   "sel": [
+    [
+     "e2-standard-2",
+     "2",
+     "8 GiB",
+     "$0.06701142 / 1 hour",
+     "$0.048248226 / 1 hour",
+     "$0.036186166 / 1 hour",
+     "$0.042217196 / 1 hour",
+     "$0.030155144 / 1 hour"
+    ]
+   ]
+  },
+  {
+   "i": 36,
+   "header": [
+    "Machine type",
+    "Virtual CPUs",
+    "Memory",
+    "Default* (USD) info",
+    "Compute Flexible CUD - 1 Year* (USD) info",
+    "Compute Flexible CUD - 3 Year* (USD) info",
+    "Compute Resource CUDs - 1 Year (USD)",
+    "Compute Resource CUDs - 3 Year (USD)"
+   ],
+   "sel": [
+    [
+     "e2-highmem-2",
+     "2",
+     "16 GiB",
+     "$0.09039966 / 1 hour",
+     "$0.065087762 / 1 hour",
+     "$0.048815814 / 1 hour",
+     "$0.056951788 / 1 hour",
+     "$0.040679856 / 1 hour"
+    ]
+   ]
+  },
+  {
+   "i": 37,
+   "header": [
+    "Machine type",
+    "Virtual CPUs",
+    "Memory",
+    "Default* (USD) info",
+    "Compute Flexible CUD - 1 Year* (USD) info",
+    "Compute Flexible CUD - 3 Year* (USD) info",
+    "Compute Resource CUDs - 1 Year (USD)",
+    "Compute Resource CUDs - 3 Year (USD)"
+   ],
+   "sel": [
+    [
+     "e2-highcpu-2",
+     "2",
+     "2 GiB",
+     "$0.04947024 / 1 hour",
+     "$0.035618574 / 1 hour",
+     "$0.02671393 / 1 hour",
+     "$0.031166252 / 1 hour",
+     "$0.02226161 / 1 hour"
+    ]
+   ]
+  },
+  {
+   "i": 39,
+   "header": [
+    "Machine type",
+    "Virtual CPUs",
+    "Memory",
+    "Default* (USD) info",
+    "Compute Flexible CUD - 1 Year* (USD) info",
+    "Compute Flexible CUD - 3 Year* (USD) info",
+    "Compute Resource CUDs - 1 Year (USD)",
+    "Compute Resource CUDs - 3 Year (USD)"
+   ],
+   "sel": [
+    [
+     "n2-standard-8",
+     "8",
+     "32 GiB",
+     "$0.388472 / 1 hour",
+     "$0.27969984 / 1 hour",
+     "$0.20977488 / 1 hour",
+     "$0.244728 / 1 hour",
+     "$0.174824 / 1 hour"
+    ],
+    [
+     "n2-standard-80",
+     "80",
+     "320 GiB",
+     "$3.88472 / 1 hour",
+     "$2.7969984 / 1 hour",
+     "$2.0977488 / 1 hour",
+     "$2.44728 / 1 hour",
+     "$1.74824 / 1 hour"
+    ]
+   ]
+  }
+ ],
+ "memory": [
+  {
+   "i": 0,
+   "header": [
+    "Machine Type",
+    "Cores (Hyper threaded)",
+    "Memory",
+    "Storage",
+    "Standard Networking",
+    "Default* (USD) info",
+    "Compute Flexible CUD - 1 Year* (USD) info",
+    "Compute Flexible CUD - 3 Year* (USD) info",
+    "Compute Resource CUDs - 1 Year (USD)",
+    "Compute Resource CUDs - 3 Year (USD)"
+   ],
+   "sel": [
+    [
+     "m4-ultramem-224",
+     "224",
+     "5,952 GiB",
+     "Hyperdisk",
+     "100 Gbps",
+     "$41.464125836 / 1 hour",
+     "$41.464125836 / 1 hour",
+     "$15.341729116 / 1 hour",
+     "$24.463839356 / 1 hour",
+     "$12.439212187 / 1 hour"
+    ],
+    [
+     "m4-megamem-224",
+     "224",
+     "2976 GiB",
+     "Hyperdisk",
+     "100 Gbps",
+     "$17.6946816 / 1 hour",
+     "$17.6946816 / 1 hour",
+     "$6.547032192 / 1 hour",
+     "$10.439872 / 1 hour",
+     "$5.3084 / 1 hour"
+    ]
+   ]
+  }
+ ],
+ "accel_edge": [],
+ "accel_body_edge": []
+}
