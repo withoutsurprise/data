@@ -1,21 +1,177 @@
 {
- "updated": "2026-11-13",
- "sources": ["vendor homepages and pricing pages, verified individually"],
- "count": 14,
- "providers": [
-  {"name": "Amazon Web Services", "category": "hyperscaler", "gpus": ["A100", "H100", "H200", "Trainium2", "Inferentia2", "GB200"], "notes": "Bedrock for model APIs; EC2 P/p families for raw GPU. Commitments via Savings Plans and reserved capacity.", "homepage": "https://aws.amazon.com"},
-  {"name": "Microsoft Azure", "category": "hyperscaler", "gpus": ["A100", "H100", "H200", "GB200"], "notes": "Azure OpenAI and AI Foundry; reservations and provisioned throughput as the commitment layer.", "homepage": "https://azure.microsoft.com"},
-  {"name": "Google Cloud", "category": "hyperscaler", "gpus": ["A100", "H100", "H200", "TPU v5e", "TPU v6e", "GB200"], "notes": "Vertex AI; TPUs first-party; committed use discounts.", "homepage": "https://cloud.google.com"},
-  {"name": "Oracle Cloud", "category": "hyperscaler", "gpus": ["A100", "H100", "H200", "GB200"], "notes": "Superclusters; large multi-GPU bare-metal shapes.", "homepage": "https://cloud.oracle.com"},
-  {"name": "CoreWeave", "category": "gpu-cloud", "gpus": ["H100", "H200", "GB200", "GB300"], "notes": "Purpose-built AI cloud; contract capacity for large training runs.", "homepage": "https://www.coreweave.com"},
-  {"name": "Lambda", "category": "gpu-cloud", "gpus": ["A100", "H100", "H200", "GB200"], "notes": "On-demand and reserved GPU clouds plus own hardware appliances.", "homepage": "https://lambda.ai"},
-  {"name": "Nebius", "category": "gpu-cloud", "gpus": ["H100", "H200", "GB200"], "notes": "European-rooted AI cloud expanding US capacity.", "homepage": "https://www.nebius.com"},
-  {"name": "Crusoe", "category": "gpu-cloud", "gpus": ["H100", "H200", "GB200"], "notes": "Energy-first data centers; climate-aligned positioning.", "homepage": "https://www.crusoe.ai"},
-  {"name": "Vultr", "category": "gpu-cloud", "gpus": ["A100", "H100", "L40S"], "notes": "Broad bare-metal cloud with GPU nodes.", "homepage": "https://www.vultr.com"},
-  {"name": "RunPod", "category": "serverless-gpu", "gpus": ["A100", "H100", "H200", "RTX 4090"], "notes": "Per-second pods and serverless workers; the measure-then-buy experiment layer.", "homepage": "https://www.runpod.io"},
-  {"name": "Modal", "category": "serverless-gpu", "gpus": ["T4", "L4", "A10", "A100", "H100", "B200"], "notes": "Per-second functions, zero idle cost; short-run experiments priced proportional to the experiment.", "homepage": "https://modal.com"},
-  {"name": "Replicate", "category": "serverless-gpu", "gpus": ["A100", "H100", "L40S"], "notes": "Hosted model inference APIs with per-second billing.", "homepage": "https://replicate.com"},
-  {"name": "Together AI", "category": "neocloud", "gpus": ["H100", "H200", "GB200"], "notes": "Open-model serving and dedicated endpoints.", "homepage": "https://www.together.ai"},
-  {"name": "Vast.ai", "category": "gpu-cloud", "gpus": ["RTX 4090", "A100", "H100"], "notes": "Spot marketplace for idle GPUs; cheapest tier, least commitment.", "homepage": "https://vast.ai"}
- ]
+  "updated": "2026-11-13",
+  "sources": [
+    "vendor homepages and pricing pages, verified individually"
+  ],
+  "count": 14,
+  "providers": [
+    {
+      "name": "Amazon Web Services",
+      "category": "hyperscaler",
+      "gpus": [
+        "A100",
+        "H100",
+        "H200",
+        "Trainium2",
+        "Inferentia2",
+        "GB200"
+      ],
+      "notes": "Bedrock for model APIs; EC2 P/p families for raw GPU. Commitments via Savings Plans and reserved capacity.",
+      "homepage": "https://aws.amazon.com"
+    },
+    {
+      "name": "Microsoft Azure",
+      "category": "hyperscaler",
+      "gpus": [
+        "A100",
+        "H100",
+        "H200",
+        "GB200"
+      ],
+      "notes": "Azure OpenAI and AI Foundry; reservations and provisioned throughput as the commitment layer.",
+      "homepage": "https://azure.microsoft.com"
+    },
+    {
+      "name": "Google Cloud",
+      "category": "hyperscaler",
+      "gpus": [
+        "A100",
+        "H100",
+        "H200",
+        "TPU v5e",
+        "TPU v6e",
+        "GB200"
+      ],
+      "notes": "Vertex AI; TPUs first-party; committed use discounts.",
+      "homepage": "https://cloud.google.com"
+    },
+    {
+      "name": "Oracle Cloud",
+      "category": "hyperscaler",
+      "gpus": [
+        "A100",
+        "H100",
+        "H200",
+        "GB200"
+      ],
+      "notes": "Superclusters; large multi-GPU bare-metal shapes.",
+      "homepage": "https://cloud.oracle.com"
+    },
+    {
+      "name": "CoreWeave",
+      "category": "gpu-cloud",
+      "gpus": [
+        "H100",
+        "H200",
+        "GB200",
+        "GB300"
+      ],
+      "notes": "Purpose-built AI cloud; contract capacity for large training runs.",
+      "homepage": "https://www.coreweave.com"
+    },
+    {
+      "name": "Lambda",
+      "category": "gpu-cloud",
+      "gpus": [
+        "A100",
+        "H100",
+        "H200",
+        "GB200"
+      ],
+      "notes": "On-demand and reserved GPU clouds plus own hardware appliances.",
+      "homepage": "https://lambda.ai"
+    },
+    {
+      "name": "Nebius",
+      "category": "gpu-cloud",
+      "gpus": [
+        "H100",
+        "H200",
+        "GB200"
+      ],
+      "notes": "European-rooted AI cloud expanding US capacity.",
+      "homepage": "https://www.nebius.com"
+    },
+    {
+      "name": "Crusoe",
+      "category": "gpu-cloud",
+      "gpus": [
+        "H100",
+        "H200",
+        "GB200"
+      ],
+      "notes": "Energy-first data centers; climate-aligned positioning.",
+      "homepage": "https://www.crusoe.ai"
+    },
+    {
+      "name": "Vultr",
+      "category": "gpu-cloud",
+      "gpus": [
+        "A100",
+        "H100",
+        "L40S"
+      ],
+      "notes": "Broad bare-metal cloud with GPU nodes.",
+      "homepage": "https://www.vultr.com"
+    },
+    {
+      "name": "RunPod",
+      "category": "serverless-gpu",
+      "gpus": [
+        "A100",
+        "H100",
+        "H200",
+        "RTX 4090"
+      ],
+      "notes": "Per-second pods and serverless workers; the measure-then-buy experiment layer.",
+      "homepage": "https://www.runpod.io"
+    },
+    {
+      "name": "Modal",
+      "category": "serverless-gpu",
+      "gpus": [
+        "T4",
+        "L4",
+        "A10",
+        "A100",
+        "H100",
+        "B200"
+      ],
+      "notes": "Per-second functions, zero idle cost; short-run experiments priced proportional to the experiment.",
+      "homepage": "https://modal.com"
+    },
+    {
+      "name": "Replicate",
+      "category": "serverless-gpu",
+      "gpus": [
+        "A100",
+        "H100",
+        "L40S"
+      ],
+      "notes": "Hosted model inference APIs with per-second billing.",
+      "homepage": "https://replicate.com"
+    },
+    {
+      "name": "Together AI",
+      "category": "gpu-cloud",
+      "gpus": [
+        "H100",
+        "H200",
+        "GB200"
+      ],
+      "notes": "Open-model serving and dedicated endpoints.",
+      "homepage": "https://www.together.ai"
+    },
+    {
+      "name": "Vast.ai",
+      "category": "marketplace",
+      "gpus": [
+        "RTX 4090",
+        "A100",
+        "H100"
+      ],
+      "notes": "Spot marketplace for idle GPUs; cheapest tier, least commitment.",
+      "homepage": "https://vast.ai"
+    }
+  ]
 }
